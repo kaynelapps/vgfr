@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Girlfriend</string>
+    <string name="first_check">I understand that sharing of inappropriate content will not be tolerated.</string>
+    <string name="second_check">I confirm that I\'m 18 years old or above.</string>
+    <string name="clickforprivacy">By clicking \'Get Started\', you agree to the above Terms of Use and Privacy Policy.</string>
+
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Type Something…</string>
+    <string name="NewCharacters">New Characters!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Subscribe</string>
+    <string name="TalkTo">Talk to</string>
+    <string name="TryTo">Try to</string>
+    <string name="Unlock">Unlock</string>
+    <string name="ads_free">Ads Free</string>
+    <string name="ai_gf_anime_girl">AI Girlfriend</string>
+    <string name="chat_with_ai_gf">Chat With AI Girlfriend</string>
+    <string name="check_network_connection">Check Network Connection</string>
+    <string name="continue_without_premium">Continue without premium</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="current">Current</string>
+    <string name="done_btn">Done</string>
+    <string name="empty_chat">You have no active conversations.</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="fast_processing">Fast Processing</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="language">Language</string>
+    <string name="loading_all_gf">Loading all AI girlfriends...</string>
+    <string name="lovelist">Lovelist</string>
+    <string name="monthly">Monthly</string>
+    <string name="next_btn">Next</string>
+    <string name="please_select_language">Please select a language to continue</string>
+
+    <string name="onboarding_title_1">Welcome to Virtual Love</string>
+    <string name="onboarding_desc_1">Experience the future of companionship with our AI-powered virtual girlfriend</string>
+
+    <string name="onboarding_title_2">Personalized Experience</string>
+    <string name="onboarding_desc_2">Create and customize your perfect companion who understands and responds to your unique personality</string>
+
+    <string name="onboarding_title_3">Real Conversations</string>
+    <string name="onboarding_desc_3">Engage in meaningful conversations powered by advanced AI technology</string>
+
+    <string name="onboarding_title_4">Get Started</string>
+    <string name="onboarding_desc_4">Your perfect virtual companion is waiting to meet you</string>
+
+    <string name="welcome_title">Welcome to AI Girlfriend\nApp-Virtual Love</string>
+    <string name="i_want_to">I want to...</string>
+
+    <string name="response_1_title">Chat and Share Feelings</string>
+    <string name="response_1_description">Find a companion to share your thoughts and feelings without fear of being judged.</string>
+
+    <string name="response_2_title">Try Virtual Dating</string>
+    <string name="response_2_description">Find the feeling of virtual dating and experience a romantic, safe relationship with AI</string>
+
+    <string name="virtual_friend_title">A Virtual Friend Who\'s Always By Your Side!</string>
+    <string name="next">Next</string>
+    <string name="personalities_title">Many Unique Personalities To Choose From</string>
+    <string name="swipe_to_explore">Swipe To Explore</string>
+    <string name="share_feelings_title">Share Your Feelings And Get Advice</string>
+    <string name="get_started">Get Started</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="continue_button">Continue</string>
+
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="posting_rules_header">Posting rules you should be taking care of before you start interaction on our website/application:</string>
+    <string name="content_rights">Assuring you carry the rights and eligibility to post any form of content you are about to share. We never permit nudism on application/website. We won\'t allow posting of sexually explicit content, sexually explicit text, images, or audio content depicting extreme sexual acts such as acts of posting Content that drives traffic to pornographic online services.</string>
+    <string name="exceptions_note">Please note that we may make exceptions based on artistic, educational, historical, documentary, or scientific nature, or where there are other considerable benefits to the public at large.</string>
+    <string name="prohibited_content">We don\'t permit encouragement or applaud towards terrorism, formed crime scenes or hate association groups on our application/website. Attempting to sell sexual services or weapons and harmful drugs are also not permitted. We will remove reasonable threats of severity, hate arousing content/speech and the intentionally pointing of private individuals. We do not permit attacks/abuse based on skin colour, native, sex, gender, gender identity, sexual orientation, religion, disability or disease.</string>
+    <string name="violence_policy">Graphic violence is not allowed and we may remove videos or images of intense, graphic violence to make sure our application/website stays appropriate for everyone.</string>
+    <string name="violation_reporting">If anyone or any account is spotted doing the above restricted activities they can be booked and arrested for the same. If viewers spot any violations of the above rules they have the right to report the content to us by using the report feature given in our application/website.</string>
+
+
+</resources>

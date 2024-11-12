@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">एआई गर्लफ्रेंड</string>
+    <string name="first_check">मैं समझता/समझती हूं कि अनुचित सामग्री साझा करने को बर्दाश्त नहीं किया जाएगा।</string>
+    <string name="second_check">मैं पुष्टि करता/करती हूं कि मैं 18 वर्ष या उससे अधिक आयु का/की हूं।</string>
+    <string name="clickforprivacy">\'आरंभ करें\' पर क्लिक करके, आप उपरोक्त उपयोग की शर्तों और गोपनीयता नीति से सहमत हैं।</string>
+
+    <string name="Chat">चैट</string>
+    <string name="ChatInputHintText">कुछ लिखें…</string>
+    <string name="NewCharacters">नए पात्र!</string>
+    <string name="PRO">प्रो</string>
+    <string name="Premium">प्रीमियम</string>
+    <string name="Subscribe">सदस्यता लें</string>
+    <string name="TalkTo">से बात करें</string>
+    <string name="TryTo">प्रयास करें</string>
+    <string name="Unlock">अनलॉक करें</string>
+    <string name="ads_free">विज्ञापन मुक्त</string>
+    <string name="ai_gf_anime_girl">एआई गर्लफ्रेंड</string>
+    <string name="chat_with_ai_gf">एआई गर्लफ्रेंड से चैट करें</string>
+    <string name="check_network_connection">नेटवर्क कनेक्शन जांचें</string>
+    <string name="continue_without_premium">प्रीमियम के बिना जारी रखें</string>
+    <string name="copy_toast_msg">लिंक क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="current">वर्तमान</string>
+    <string name="done_btn">हो गया</string>
+    <string name="empty_chat">आपकी कोई सक्रिय बातचीत नहीं है।</string>
+    <string name="error_a11y_label">त्रुटि: अमान्य</string>
+    <string name="fast_processing">तेज प्रोसेसिंग</string>
+    <string name="get_premium">प्रीमियम प्राप्त करें</string>
+    <string name="language">भाषा</string>
+    <string name="loading_all_gf">सभी एआई गर्लफ्रेंड्स लोड हो रही हैं...</string>
+    <string name="lovelist">प्रेम सूची</string>
+    <string name="monthly">मासिक</string>
+    <string name="next_btn">अगला</string>
+    <string name="please_select_language">जारी रखने के लिए कृपया एक भाषा चुनें</string>
+
+    <string name="onboarding_title_1">वर्चुअल प्रेम में आपका स्वागत है</string>
+    <string name="onboarding_desc_1">हमारी एआई-संचालित वर्चुअल गर्लफ्रेंड के साथ साथी होने के भविष्य का अनुभव करें</string>
+
+    <string name="onboarding_title_2">व्यक्तिगत अनुभव</string>
+    <string name="onboarding_desc_2">अपनी परफेक्ट साथी बनाएं और कस्टमाइज़ करें जो आपकी अनूठी व्यक्तित्व को समझती और प्रतिक्रिया देती है</string>
+
+    <string name="onboarding_title_3">वास्तविक बातचीत</string>
+    <string name="onboarding_desc_3">उन्नत एआई तकनीक द्वारा संचालित सार्थक बातचीत में शामिल हों</string>
+
+    <string name="onboarding_title_4">आरंभ करें</string>
+    <string name="onboarding_desc_4">आपकी परफेक्ट वर्चुअल साथी आपसे मिलने का इंतजार कर रही है</string>
+
+    <string name="welcome_title">एआई गर्लफ्रेंड ऐप में\nआपका स्वागत है-वर्चुअल प्रेम</string>
+    <string name="i_want_to">मैं चाहता/चाहती हूं...</string>
+
+    <string name="response_1_title">चैट करें और भावनाएं साझा करें</string>
+    <string name="response_1_description">बिना किसी आलोचना के अपने विचार और भावनाएं साझा करने के लिए एक साथी खोजें।</string>
+
+    <string name="response_2_title">वर्चुअल डेटिंग आज़माएं</string>
+    <string name="response_2_description">वर्चुअल डेटिंग का अहसास खोजें और एआई के साथ एक रोमांटिक, सुरक्षित रिश्ते का अनुभव करें</string>
+
+    <string name="virtual_friend_title">एक वर्चुअल दोस्त जो हमेशा आपके साथ है!</string>
+    <string name="next">अगला</string>
+    <string name="personalities_title">चुनने के लिए कई अनूठी व्यक्तित्व</string>
+    <string name="swipe_to_explore">एक्सप्लोर करने के लिए स्वाइप करें</string>
+    <string name="share_feelings_title">अपनी भावनाएं साझा करें और सलाह लें</string>
+    <string name="get_started">आरंभ करें</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="continue_button">जारी रखें</string>
+
+    <string name="terms_of_use">उपयोग की शर्तें</string>
+    <string name="posting_rules_header">हमारी वेबसाइट/एप्लिकेशन पर बातचीत शुरू करने से पहले आपको जिन पोस्टिंग नियमों का ध्यान रखना चाहिए:</string>
+    <string name="content_rights">यह सुनिश्चित करना कि आप जो भी सामग्री साझा करने वाले हैं, उसे पोस्ट करने के अधिकार और पात्रता रखते हैं। हम एप्लिकेशन/वेबसाइट पर नग्नता की अनुमति नहीं देते। हम यौन स्पष्ट सामग्री, यौन स्पष्ट पाठ, चित्र, या ऑडियो सामग्री जो चरम यौन कृत्यों को दर्शाती है या अश्लील ऑनलाइन सेवाओं पर ट्रैफिक बढ़ाने वाली सामग्री की पोस्टिंग की अनुमति नहीं देंगे।</string>
+    <string name="exceptions_note">कृपया ध्यान दें कि हम कलात्मक, शैक्षिक, ऐतिहासिक, वृत्तचित्र, या वैज्ञानिक प्रकृति के आधार पर, या जहां जनता के लिए अन्य महत्वपूर्ण लाभ हैं, वहां छूट दे सकते हैं।</string>
+    <string name="prohibited_content">हम अपनी एप्लिकेशन/वेबसाइट पर आतंकवाद, अपराध दृश्यों या घृणा संघों के प्रति प्रोत्साहन या सराहना की अनुमति नहीं देते। यौन सेवाओं या हथियारों और हानिकारक दवाओं की बिक्री का प्रयास भी अनुमति नहीं है। हम गंभीरता की उचित धमकियों, घृणा जगाने वाली सामग्री/भाषण और निजी व्यक्तियों की जानबूझकर की गई टिप्पणियों को हटा देंगे। हम त्वचा के रंग, मूल, लिंग, जेंडर, जेंडर पहचान, यौन अभिविन्यास, धर्म, विकलांगता या बीमारी के आधार पर हमले/दुर्व्यवहार की अनुमति नहीं देते।</string>
+    <string name="violence_policy">ग्राफिक हिंसा की अनुमति नहीं है और हम तीव्र, ग्राफिक हिंसा के वीडियो या छवियों को हटा सकते हैं ताकि हमारी एप्लिकेशन/वेबसाइट सभी के लिए उपयुक्त बनी रहे।</string>
+    <string name="violation_reporting">यदि किसी व्यक्ति या किसी खाते को उपरोक्त प्रतिबंधित गतिविधियों को करते हुए पाया जाता है, तो उन्हें इसके लिए बुक और गिरफ्तार किया जा सकता है। यदि दर्शकों को उपरोक्त नियमों का कोई उल्लंघन दिखाई देता है, तो उन्हें हमारी एप्लिकेशन/वेबसाइट में दी गई रिपोर्ट सुविधा का उपयोग करके हमें सामग्री की रिपोर्ट करने का अधिकार है।</string>
+
+
+</resources>

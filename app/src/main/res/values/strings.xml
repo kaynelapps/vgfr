@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Ai Girlfriend</string>
+
+    <string name="applovin_sdk_key">applovin_sdk_key</string>
+
+    <string name="first_check">I understand that sharing of inappropriate content will not be tolerated.</string>
+    <string name="second_check">I confirm that Im 18 years old or above.</string>
+    <string name="clickforprivacy">"By Clicking 'Get Started'. You are agree to above Terms of Use and Privacy Policy. "</string>
+
+
+    <string name="Amelia">Amelia</string>
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Typing Something…</string>
+    <string name="GPT35">GPT-3.5</string>
+    <string name="GPT40">GPT-4</string>
+    <string name="NewCharacters">New Characters!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Subscribe</string>
+    <string name="TalkTo">Talk to</string>
+    <string name="TryTo">Try to</string>
+    <string name="Unlock">Unlock</string>
+    <string name="ads_free">Ads Free</string>
+    <string name="ai_gf_anime_girl">Ai Girlfriend</string>
+    <string name="chat_with_ai_gf">Chat With Ai Girlfriend</string>
+    <string name="check_network_connection">Check Netowork Connection</string>
+    <string name="continue_without_premium">Continue without premium</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="current">Current</string>
+    <string name="define_roundedimageview" />
+    <string name="done_btn">Done</string>
+    <string name="empty_chat">You have no active conversation.</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="fast_processing">Fast Processing</string>
+    <string name="get_premium">Get Premium</string>
+    <string name="gf_anime_girl">Girlfriend : Anime Girl</string>
+    <string name="gps">Google Play Subscriptions</string>
+    <string name="gpt4_model">GPT-4 Model</string>
+    <string name="heads_up">Heads up</string>
+    <string name="heads_up_2">Please note that while purchasing/upgrading any of our plans we suggest that you enable international transactions on your card to guarantee a seamless experience personalized for you</string>
+    <string name="info_1">Pick your AI girlfriend and enjoy a sweet chat, where digital romance blossoms with every typed word, creating a unique connection in the virtual world.</string>
+    <string name="info_2">Talk to your AI anime virtual girlfriend and enjoy a friendly chat with animated companionship. Make it uniquely yours by personalizing the conversation.</string>
+    <string name="language">Language</string>
+    <string name="loading_all_gf">Loading all Ai girlfriends...</string>
+    <string name="lovelist">Lovelist</string>
+    <string name="monthly">Monthly</string>
+    <string name="next_btn">Next</string>
+    <string name="pay_for_month">Pay for a 1 month</string>
+    <string name="pay_for_week">Pay for a 1 week</string>
+    <string name="please_select_rating">Please select a rating..</string>
+    <string name="privacy">file:///android_asset/privacy_policy.html</string>
+    <string name="privacy_app">Privacy App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="purchase_now">Purchase now</string>
+    <string name="rate_app">Rate App</string>
+    <string name="rate_our_app">Rate Our App !</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_your_experience">Rate your experience for our app by giving 5 Star..</string>
+    <string name="round3">Unlimited Romantic Chat</string>
+    <string name="search_menu_title">Search</string>
+    <string name="setting">Setting</string>
+    <string name="setting_text">Unlock Characters &amp; Chat Limits</string>
+    <string name="share_app">Share App</string>
+    <string name="something_went">Something went wrong \10 Please try again</string>
+    <string name="sorry_some_issue">Sorry Some issue Please try again</string>
+    <string name="srv_link">https://phpstack-352233-3047931.cloudwaysapps.com/</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="start_romantic_chat">Start romantic chat with your selected anime girlfriend and share your thoughts.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sub_success">Your Subscription SuccessFully!</string>
+    <string name="talk_to">Talk To</string>
+    <string name="this_can">This action can contain ads</string>
+    <string name="this_plan">This plan already activate \10 Please choose another plan</string>
+    <string name="toast_message">Toast message</string>
+    <string name="try_to_unlock">Try to Unlock</string>
+    <string name="unlock_cha_and_dl">Unlock Characters &amp; \10Dailogue Limits</string>
+    <string name="unlockallgf">Unlock All Girlfriends</string>
+    <string name="upgrade_plan">Upgrade Plan</string>
+    <string name="watermark_label_prefix">AdMob - </string>
+    <string name="weekly">Weekly</string>
+    <string name="welcome_to_chat">Welcome to Chat</string>
+    <string name="with">with</string>
+    <string name="with_premium">With Premium</string>
+    <string name="your_sub_text">your subscription will be automatically renew at the same price and period you many manage or cancel subscription at any time from your google playstore account settings.</string>
+    <string name="app_desc">Try this amazing AI chat app, in which you can find various AI anime girlfriends to chat with like never before. Start your conversations and make them more interesting by sharing all your emotions.</string>
+
+
+    <string name="please_select_language">Please select a language to continue</string>
+
+
+
+    <string name="onboarding_title_1">Welcome to Virtual Love</string>
+    <string name="onboarding_desc_1">Experience the future of companionship with our AI-powered virtual girlfriend</string>
+
+    <string name="onboarding_title_2">Personalized Experience</string>
+    <string name="onboarding_desc_2">Create and customize your perfect companion who understands and responds to your unique personality</string>
+
+    <string name="onboarding_title_3">Real Conversations</string>
+    <string name="onboarding_desc_3">Engage in meaningful conversations powered by advanced AI technology</string>
+
+    <string name="onboarding_title_4">Get Started</string>
+    <string name="onboarding_desc_4">Your perfect virtual companion is waiting to meet you</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+
+    <string name="welcome_title">Welcome to AI Girlfriend\nApp-Virtual Love</string>
+    <string name="i_want_to">I want to...</string>
+
+    <!-- Response Options -->
+    <string name="response_1_title">Chat and Share Feelings</string>
+    <string name="response_1_description">Find a companion to share your thoughts and feelings without fear of being judged.</string>
+
+    <string name="response_2_title">Try Virtual Dating</string>
+    <string name="response_2_description">Find the feeling of virtual dating and experience a romantic, safe relationship with Ai</string>
+
+    <string name="virtual_friend_title">A Virtual Friend Who\'s Always By Your Side!</string>
+    <string name="next">Next</string>
+    <string name="personalities_title">Many Unique Personalities To Choose From</string>
+    <string name="swipe_to_explore">Swipe To Explore</string>
+    <string name="share_feelings_title">Share Your Feelings And Get Advices</string>
+    <string name="get_started">Get Started</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="continue_button">Continue</string>
+
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="posting_rules_header">Posting rules you should be taking care of before you start interaction on our website/application:</string>
+    <string name="content_rights">Assuring you carry the rights and eligibility to post any form of content you are about to share. We never permit nudism on application/website. We won\'t allow posting of sexually explicit content, sexually explicit text, images, or audio content depicting extreme sexual acts such as acts of posting Content that drives traffic to pornographic online services.</string>
+    <string name="exceptions_note">Please note that we may make exceptions based on artistic, educational, historical, documentary, or scientific nature, or where there are other considerable benefits to the public at large.</string>
+    <string name="prohibited_content">We don\'t permit encouragement or applaud towards terrorism, formed crime scenes or hate association groups on our application/website. Attempting to sell sexual services or weapons and harmful drugs are also not permitted. We will remove reasonable threats of severity, hate arousing content/speech and the intentionally pointing of private individuals. We do not permit attacks/abuse based on skin colour, native, sex, gender, gender identity, sexual orientation, religion, disability or disease.</string>
+    <string name="violence_policy">Graphic violence is not allowed and we may remove videos or images of intense, graphic violence to make sure our application/website stays appropriate for everyone.</string>
+    <string name="violation_reporting">If anyone or any account is spotted doing the above restricted activities they can be booked and arrested for the same. If viewers spot any violations of the above rules they have the right to report the content to us by using the report feature given in our application/website.</string>
+
+
+</resources>

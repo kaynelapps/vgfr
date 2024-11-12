@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82628790340",
+    "project_id": "apb412---ai-girlfriend-app",
+    "storage_bucket": "apb412---ai-girlfriend-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82628790340:android:84310a389bdb916ad45411",
+        "android_client_info": {
+          "package_name": "com.aigirlfriend.virtuallove"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeCrrX5NnNThJ-K2UYzEZBRre51K5or34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

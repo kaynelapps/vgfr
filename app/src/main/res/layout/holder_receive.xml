@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    android:textDirection="ltr">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="122px"
+        android:layout_height="122px"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/_15sdp"
+        app:cardBackgroundColor="#d9d9d9"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/mImageHead"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_bg_recieve" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/mTvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/receive_bg"
+        android:fontFamily="@font/urbanist_light"
+        android:paddingLeft="21dp"
+        android:paddingTop="16dp"
+        android:paddingRight="21dp"
+        android:paddingBottom="16dp"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/_12sdp" />
+</LinearLayout>

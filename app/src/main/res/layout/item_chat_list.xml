@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:background="@drawable/language_bg"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:textDirection="ltr">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/conChat"
+        android:layout_width="980px"
+        android:layout_height="220px"
+        android:background="@drawable/chat_button_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardHead"
+            android:layout_width="153px"
+            android:layout_height="152px"
+            android:layout_marginStart="@dimen/_16sdp"
+            app:cardBackgroundColor="#d9d9d9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="@dimen/_1sdp">
+
+            <ImageView
+                android:id="@+id/mImageHead"
+                android:layout_width="153px"
+                android:layout_height="152px"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/imgRecentIcon"
+                android:layout_width="50px"
+                android:layout_height="49px"
+                android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end"
+                android:src="@drawable/recent_chat"
+                android:visibility="gone" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/mTvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:fontFamily="@font/urbanist_regular"
+            android:text="Rubey"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardHead"
+            app:layout_constraintTop_toTopOf="@+id/cardHead" />
+
+        <ImageButton
+            android:id="@+id/btnFlag"
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_flag"
+            app:tint="#898989"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/mTvMsg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:maxLines="2"
+            android:textColor="#898989"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnFlag"
+            app:layout_constraintStart_toStartOf="@+id/mTvName"
+            app:layout_constraintTop_toBottomOf="@+id/mTvName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

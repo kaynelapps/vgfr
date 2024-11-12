@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Pacar</string>
+    <string name="first_check">Saya memahami bahwa berbagi konten tidak pantas tidak akan ditoleransi.</string>
+    <string name="second_check">Saya mengonfirmasi bahwa saya berusia 18 tahun atau lebih.</string>
+    <string name="clickforprivacy">Dengan mengklik \'Mulai\', Anda menyetujui Ketentuan Penggunaan dan Kebijakan Privasi di atas.</string>
+
+    <string name="Chat">Obrolan</string>
+    <string name="ChatInputHintText">Ketik Sesuatu…</string>
+    <string name="NewCharacters">Karakter Baru!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Berlangganan</string>
+    <string name="TalkTo">Bicara dengan</string>
+    <string name="TryTo">Coba</string>
+    <string name="Unlock">Buka Kunci</string>
+    <string name="ads_free">Bebas Iklan</string>
+    <string name="ai_gf_anime_girl">AI Pacar</string>
+    <string name="chat_with_ai_gf">Mengobrol dengan AI Pacar</string>
+    <string name="check_network_connection">Periksa Koneksi Jaringan</string>
+    <string name="continue_without_premium">Lanjutkan tanpa premium</string>
+    <string name="copy_toast_msg">Tautan disalin ke clipboard</string>
+    <string name="current">Saat ini</string>
+    <string name="done_btn">Selesai</string>
+    <string name="empty_chat">Anda tidak memiliki percakapan aktif.</string>
+    <string name="error_a11y_label">Error: tidak valid</string>
+    <string name="fast_processing">Pemrosesan Cepat</string>
+    <string name="get_premium">Dapatkan Premium</string>
+    <string name="language">Bahasa</string>
+    <string name="loading_all_gf">Memuat semua AI pacar...</string>
+    <string name="lovelist">Daftar Cinta</string>
+    <string name="monthly">Bulanan</string>
+    <string name="next_btn">Berikutnya</string>
+    <string name="please_select_language">Silakan pilih bahasa untuk melanjutkan</string>
+
+    <string name="onboarding_title_1">Selamat Datang di Cinta Virtual</string>
+    <string name="onboarding_desc_1">Rasakan masa depan persahabatan dengan pacar virtual bertenaga AI kami</string>
+
+    <string name="onboarding_title_2">Pengalaman Personal</string>
+    <string name="onboarding_desc_2">Buat dan sesuaikan pendamping sempurna Anda yang memahami dan merespons kepribadian unik Anda</string>
+
+    <string name="onboarding_title_3">Percakapan Nyata</string>
+    <string name="onboarding_desc_3">Terlibat dalam percakapan bermakna yang didukung oleh teknologi AI canggih</string>
+
+    <string name="onboarding_title_4">Mulai</string>
+    <string name="onboarding_desc_4">Pendamping virtual sempurna Anda sedang menunggu untuk bertemu Anda</string>
+
+    <string name="welcome_title">Selamat Datang di AI Pacar\nAplikasi-Cinta Virtual</string>
+    <string name="i_want_to">Saya ingin...</string>
+
+    <string name="response_1_title">Mengobrol dan Berbagi Perasaan</string>
+    <string name="response_1_description">Temukan pendamping untuk berbagi pikiran dan perasaan Anda tanpa takut dihakimi.</string>
+
+    <string name="response_2_title">Mencoba Kencan Virtual</string>
+    <string name="response_2_description">Temukan perasaan kencan virtual dan alami hubungan romantis yang aman dengan AI</string>
+
+    <string name="virtual_friend_title">Teman Virtual yang Selalu Ada di Sisi Anda!</string>
+    <string name="next">Berikutnya</string>
+    <string name="personalities_title">Banyak Kepribadian Unik untuk Dipilih</string>
+    <string name="swipe_to_explore">Geser untuk Menjelajahi</string>
+    <string name="share_feelings_title">Bagikan Perasaan Anda dan Dapatkan Saran</string>
+    <string name="get_started">Mulai</string>
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="continue_button">Lanjutkan</string>
+
+    <string name="terms_of_use">Ketentuan Penggunaan</string>
+    <string name="posting_rules_header">Aturan posting yang harus Anda perhatikan sebelum mulai berinteraksi di situs web/aplikasi kami:</string>
+    <string name="content_rights">Memastikan Anda memiliki hak dan kelayakan untuk memposting segala bentuk konten yang akan Anda bagikan. Kami tidak mengizinkan nudisme di aplikasi/situs web. Kami tidak akan mengizinkan posting konten eksplisit seksual, teks eksplisit seksual, gambar, atau konten audio yang menggambarkan tindakan seksual ekstrem seperti tindakan memposting Konten yang mengarahkan lalu lintas ke layanan online pornografi.</string>
+    <string name="exceptions_note">Harap dicatat bahwa kami dapat membuat pengecualian berdasarkan sifat artistik, pendidikan, sejarah, dokumenter, atau ilmiah, atau di mana ada manfaat lain yang cukup besar bagi publik secara luas.</string>
+    <string name="prohibited_content">Kami tidak mengizinkan dorongan atau pujian terhadap terorisme, adegan kejahatan yang terbentuk atau kelompok asosiasi kebencian di aplikasi/situs web kami. Upaya menjual layanan seksual atau senjata dan obat-obatan berbahaya juga tidak diizinkan. Kami akan menghapus ancaman yang masuk akal dari keparahan, konten/ucapan yang membangkitkan kebencian dan penunjukan yang disengaja terhadap individu pribadi. Kami tidak mengizinkan serangan/pelecehan berdasarkan warna kulit, asal, jenis kelamin, identitas gender, orientasi seksual, agama, disabilitas atau penyakit.</string>
+    <string name="violence_policy">Kekerasan grafis tidak diizinkan dan kami dapat menghapus video atau gambar kekerasan grafis yang intens untuk memastikan aplikasi/situs web kami tetap sesuai untuk semua orang.</string>
+    <string name="violation_reporting">Jika seseorang atau akun tertentu terlihat melakukan aktivitas terlarang di atas, mereka dapat dicatat dan ditangkap untuk hal yang sama. Jika pengguna melihat pelanggaran aturan di atas, mereka memiliki hak untuk melaporkan konten kepada kami dengan menggunakan fitur laporan yang tersedia di aplikasi/situs web kami.</string>
+
+
+</resources>

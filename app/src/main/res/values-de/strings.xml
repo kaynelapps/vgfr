@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KI-Freundin</string>
+    <string name="first_check">Ich verstehe, dass das Teilen von unangemessenen Inhalten nicht toleriert wird.</string>
+    <string name="second_check">Ich bestätige, dass ich 18 Jahre oder älter bin.</string>
+    <string name="clickforprivacy">Durch Klicken auf \'Loslegen\' stimmen Sie den obigen Nutzungsbedingungen und der Datenschutzerklärung zu.</string>
+
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Schreibe etwas…</string>
+    <string name="NewCharacters">Neue Charaktere!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Abonnieren</string>
+    <string name="TalkTo">Sprechen mit</string>
+    <string name="TryTo">Versuchen</string>
+    <string name="Unlock">Freischalten</string>
+    <string name="ads_free">Werbefrei</string>
+    <string name="ai_gf_anime_girl">KI-Freundin</string>
+    <string name="chat_with_ai_gf">Mit KI-Freundin chatten</string>
+    <string name="check_network_connection">Netzwerkverbindung prüfen</string>
+    <string name="continue_without_premium">Ohne Premium fortfahren</string>
+    <string name="copy_toast_msg">Link in Zwischenablage kopiert</string>
+    <string name="current">Aktuell</string>
+    <string name="done_btn">Fertig</string>
+    <string name="empty_chat">Sie haben keine aktiven Gespräche.</string>
+    <string name="error_a11y_label">Fehler: ungültig</string>
+    <string name="fast_processing">Schnelle Verarbeitung</string>
+    <string name="get_premium">Premium erhalten</string>
+    <string name="language">Sprache</string>
+    <string name="loading_all_gf">Lade alle KI-Freundinnen...</string>
+    <string name="lovelist">Liebesliste</string>
+    <string name="monthly">Monatlich</string>
+    <string name="next_btn">Weiter</string>
+    <string name="please_select_language">Bitte wählen Sie eine Sprache zum Fortfahren</string>
+
+    <string name="onboarding_title_1">Willkommen bei Virtueller Liebe</string>
+    <string name="onboarding_desc_1">Erleben Sie die Zukunft der Gesellschaft mit unserer KI-gesteuerten virtuellen Freundin</string>
+
+    <string name="onboarding_title_2">Personalisierte Erfahrung</string>
+    <string name="onboarding_desc_2">Erstellen und gestalten Sie Ihre perfekte Begleiterin, die Ihre einzigartige Persönlichkeit versteht</string>
+
+    <string name="onboarding_title_3">Echte Gespräche</string>
+    <string name="onboarding_desc_3">Führen Sie bedeutungsvolle Gespräche, unterstützt von fortschrittlicher KI-Technologie</string>
+
+    <string name="onboarding_title_4">Loslegen</string>
+    <string name="onboarding_desc_4">Ihre perfekte virtuelle Begleiterin wartet darauf, Sie kennenzulernen</string>
+
+    <string name="welcome_title">Willkommen bei der KI-Freundin\nApp-Virtuelle Liebe</string>
+    <string name="i_want_to">Ich möchte...</string>
+
+    <string name="response_1_title">Chatten und Gefühle teilen</string>
+    <string name="response_1_description">Finden Sie eine Begleiterin, mit der Sie Ihre Gedanken und Gefühle ohne Angst vor Verurteilung teilen können.</string>
+
+    <string name="response_2_title">Virtuelles Dating ausprobieren</string>
+    <string name="response_2_description">Entdecken Sie das Gefühl des virtuellen Datings und erleben Sie eine romantische, sichere Beziehung mit KI</string>
+
+    <string name="virtual_friend_title">Eine virtuelle Freundin, die immer an Ihrer Seite ist!</string>
+    <string name="next">Weiter</string>
+    <string name="personalities_title">Viele einzigartige Persönlichkeiten zur Auswahl</string>
+    <string name="swipe_to_explore">Wischen zum Erkunden</string>
+    <string name="share_feelings_title">Teilen Sie Ihre Gefühle und erhalten Sie Ratschläge</string>
+    <string name="get_started">Loslegen</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string name="continue_button">Fortfahren</string>
+
+    <string name="terms_of_use">Nutzungsbedingungen</string>
+    <string name="posting_rules_header">Posting-Regeln, die Sie beachten sollten, bevor Sie mit der Interaktion auf unserer Website/Anwendung beginnen:</string>
+    <string name="content_rights">Stellen Sie sicher, dass Sie die Rechte und Berechtigung haben, jegliche Art von Inhalt zu teilen. Wir erlauben keinen Nudismus auf der Anwendung/Website. Wir erlauben keine Veröffentlichung von sexuell expliziten Inhalten, sexuell expliziten Texten, Bildern oder Audioinhalten, die extreme sexuelle Handlungen darstellen oder Inhalte, die zu pornografischen Online-Diensten führen.</string>
+    <string name="exceptions_note">Bitte beachten Sie, dass wir Ausnahmen für künstlerische, pädagogische, historische, dokumentarische oder wissenschaftliche Zwecke machen können, oder wenn es andere erhebliche Vorteile für die Allgemeinheit gibt.</string>
+    <string name="prohibited_content">Wir erlauben keine Ermutigung oder Beifall für Terrorismus, inszenierte Tatortszenen oder Hassgruppen auf unserer Anwendung/Website. Der Versuch, sexuelle Dienstleistungen, Waffen oder schädliche Drogen zu verkaufen, ist ebenfalls nicht gestattet. Wir entfernen angemessene Bedrohungen, hasserfüllte Inhalte/Reden und das absichtliche Hinweisen auf Privatpersonen. Wir erlauben keine Angriffe/Missbrauch aufgrund von Hautfarbe, Herkunft, Geschlecht, Geschlechtsidentität, sexueller Orientierung, Religion, Behinderung oder Krankheit.</string>
+    <string name="violence_policy">Grafische Gewalt ist nicht erlaubt, und wir können Videos oder Bilder von intensiver, grafischer Gewalt entfernen, um sicherzustellen, dass unsere Anwendung/Website für alle angemessen bleibt.</string>
+    <string name="violation_reporting">Wenn jemand oder ein Konto bei den oben genannten eingeschränkten Aktivitäten erwischt wird, kann dies zur Anzeige und Verhaftung führen. Wenn Betrachter Verstöße gegen die oben genannten Regeln bemerken, haben sie das Recht, den Inhalt über die in unserer Anwendung/Website vorhandene Meldefunktion an uns zu melden.</string>
+
+
+</resources>

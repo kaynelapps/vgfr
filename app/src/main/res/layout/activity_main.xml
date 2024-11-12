@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/language_bg"
+        android:layoutDirection="ltr"
+        android:textDirection="ltr">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/conTopBar"
+            android:layout_width="1080px"
+            android:layout_height="150px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/titleTopBar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:fontFamily="@font/urbanist_medium"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/ai_gf_anime_girl"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnPremium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnPremium"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:src="@drawable/premium_icon_effect"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnSetting"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnSetting"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:src="@drawable/main_setting_effect"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/mFlContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toTopOf="@+id/conBottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/conTopBar" />
+
+        <LinearLayout
+            android:id="@+id/conBottom"
+            android:layout_width="1080px"
+            android:layout_height="250px"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="#000E0E0E"
+            android:backgroundTint="#00090909"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/btm1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:id="@+id/mRbTabList"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_40sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mImageTabList"
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:src="@drawable/love_press" />
+
+                <TextView
+                    android:id="@+id/mTvTabList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:fontFamily="@font/urbanist_regular"
+                    android:text="@string/lovelist"
+                    android:textColor="#f9547c"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mRbTabChat"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mImageTabChat"
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:layout_gravity="center"
+                    android:src="@drawable/chat_unpress" />
+
+                <TextView
+                    android:id="@+id/mTvTabChat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:fontFamily="@font/urbanist_regular"
+                    android:text="@string/Chat"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/btm1"
+            layout="@layout/ads_layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

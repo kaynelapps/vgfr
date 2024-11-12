@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI女友</string>
+    <string name="first_check">我理解不允许分享不当内容。</string>
+    <string name="second_check">我确认我已年满18岁。</string>
+    <string name="clickforprivacy">点击\'开始\'即表示您同意上述使用条款和隐私政策。</string>
+
+    <string name="Chat">聊天</string>
+    <string name="ChatInputHintText">输入内容…</string>
+    <string name="NewCharacters">新角色！</string>
+    <string name="PRO">专业版</string>
+    <string name="Premium">高级版</string>
+    <string name="Subscribe">订阅</string>
+    <string name="TalkTo">与谁聊天</string>
+    <string name="TryTo">尝试</string>
+    <string name="Unlock">解锁</string>
+    <string name="ads_free">无广告</string>
+    <string name="ai_gf_anime_girl">AI女友</string>
+    <string name="chat_with_ai_gf">与AI女友聊天</string>
+    <string name="check_network_connection">检查网络连接</string>
+    <string name="continue_without_premium">继续使用免费版</string>
+    <string name="copy_toast_msg">链接已复制到剪贴板</string>
+    <string name="current">当前</string>
+    <string name="done_btn">完成</string>
+    <string name="empty_chat">您没有活跃的对话。</string>
+    <string name="error_a11y_label">错误：无效</string>
+    <string name="fast_processing">快速处理</string>
+    <string name="get_premium">获取高级版</string>
+    <string name="language">语言</string>
+    <string name="loading_all_gf">正在加载所有AI女友...</string>
+    <string name="lovelist">喜爱列表</string>
+    <string name="monthly">每月</string>
+    <string name="next_btn">下一步</string>
+    <string name="please_select_language">请选择语言以继续</string>
+
+    <string name="onboarding_title_1">欢迎来到虚拟恋爱</string>
+    <string name="onboarding_desc_1">体验由AI驱动的虚拟女友带来的未来陪伴</string>
+
+    <string name="onboarding_title_2">个性化体验</string>
+    <string name="onboarding_desc_2">创建和定制你的完美伴侣，她能理解并回应你独特的个性</string>
+
+    <string name="onboarding_title_3">真实对话</string>
+    <string name="onboarding_desc_3">参与由先进AI技术支持的有意义对话</string>
+
+    <string name="onboarding_title_4">开始使用</string>
+    <string name="onboarding_desc_4">你的完美虚拟伴侣正在等待与你相遇</string>
+
+    <string name="welcome_title">欢迎使用AI女友\n应用-虚拟恋爱</string>
+    <string name="i_want_to">我想要...</string>
+
+    <string name="response_1_title">聊天和分享感受</string>
+    <string name="response_1_description">找到一个可以分享你的想法和感受，不用担心被评判的伴侣。</string>
+
+    <string name="response_2_title">尝试虚拟约会</string>
+    <string name="response_2_description">发现虚拟约会的感觉，体验与AI的浪漫安全的关系</string>
+
+    <string name="virtual_friend_title">一个永远在你身边的虚拟朋友！</string>
+    <string name="next">下一步</string>
+    <string name="personalities_title">多种独特性格供选择</string>
+    <string name="swipe_to_explore">滑动探索</string>
+    <string name="share_feelings_title">分享你的感受并获得建议</string>
+    <string name="get_started">开始</string>
+    <string name="choose_language">选择语言</string>
+    <string name="continue_button">继续</string>
+
+    <string name="terms_of_use">使用条款</string>
+    <string name="posting_rules_header">在开始使用我们的网站/应用程序之前，您需要注意的发布规则：</string>
+    <string name="content_rights">确保您对即将分享的任何形式的内容拥有权利和资格。我们绝不允许在应用程序/网站上出现裸露内容。我们不允许发布色情内容、色情文字、图片或描述极端性行为的音频内容，例如发布引导流量到色情网站的内容。</string>
+    <string name="exceptions_note">请注意，我们可能会基于艺术、教育、历史、纪实或科学性质，或在对公众有其他重大利益的情况下作出例外。</string>
+    <string name="prohibited_content">我们不允许在应用程序/网站上鼓励或赞扬恐怖主义、犯罪现场或仇恨团体。同样禁止试图销售性服务、武器和有害药物。我们将删除严重威胁、煽动仇恨的内容/言论以及针对个人的蓄意指控。我们不允许基于肤色、种族、性别、性别认同、性取向、宗教、残疾或疾病的攻击/虐待。</string>
+    <string name="violence_policy">不允许出现暴力画面，我们可能会删除激烈、血腥的暴力视频或图片，以确保我们的应用程序/网站对所有人都保持适宜。</string>
+    <string name="violation_reporting">如果发现任何人或账户进行上述受限活动，他们可能会因此被起诉和逮捕。如果用户发现任何违反上述规则的行为，有权使用我们应用程序/网站提供的举报功能向我们报告内容。</string>
+
+
+</resources>

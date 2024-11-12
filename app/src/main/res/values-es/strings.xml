@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Novia IA</string>
+    <string name="first_check">Entiendo que no se tolerará compartir contenido inapropiado.</string>
+    <string name="second_check">Confirmo que tengo 18 años o más.</string>
+    <string name="clickforprivacy">Al hacer clic en \'Comenzar\', aceptas los Términos de uso y la Política de privacidad anteriores.</string>
+
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Escribe algo…</string>
+    <string name="NewCharacters">¡Nuevos Personajes!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Suscribirse</string>
+    <string name="TalkTo">Hablar con</string>
+    <string name="TryTo">Intentar</string>
+    <string name="Unlock">Desbloquear</string>
+    <string name="ads_free">Sin anuncios</string>
+    <string name="ai_gf_anime_girl">Novia IA</string>
+    <string name="chat_with_ai_gf">Chatear con Novia IA</string>
+    <string name="check_network_connection">Verificar conexión de red</string>
+    <string name="continue_without_premium">Continuar sin premium</string>
+    <string name="copy_toast_msg">Enlace copiado al portapapeles</string>
+    <string name="current">Actual</string>
+    <string name="done_btn">Listo</string>
+    <string name="empty_chat">No tienes conversaciones activas.</string>
+    <string name="error_a11y_label">Error: inválido</string>
+    <string name="fast_processing">Procesamiento rápido</string>
+    <string name="get_premium">Obtener Premium</string>
+    <string name="language">Idioma</string>
+    <string name="loading_all_gf">Cargando todas las novias IA...</string>
+    <string name="lovelist">Lista de amor</string>
+    <string name="monthly">Mensual</string>
+    <string name="next_btn">Siguiente</string>
+    <string name="please_select_language">Por favor selecciona un idioma para continuar</string>
+
+    <string name="onboarding_title_1">Bienvenido al Amor Virtual</string>
+    <string name="onboarding_desc_1">Experimenta el futuro de la compañía con nuestra novia virtual impulsada por IA</string>
+
+    <string name="onboarding_title_2">Experiencia Personalizada</string>
+    <string name="onboarding_desc_2">Crea y personaliza tu compañera perfecta que entiende y responde a tu personalidad única</string>
+
+    <string name="onboarding_title_3">Conversaciones Reales</string>
+    <string name="onboarding_desc_3">Participa en conversaciones significativas impulsadas por tecnología IA avanzada</string>
+
+    <string name="onboarding_title_4">Comenzar</string>
+    <string name="onboarding_desc_4">Tu compañera virtual perfecta está esperando conocerte</string>
+
+    <string name="welcome_title">Bienvenido a la App\nNovia IA-Amor Virtual</string>
+    <string name="i_want_to">Quiero...</string>
+
+    <string name="response_1_title">Chatear y Compartir Sentimientos</string>
+    <string name="response_1_description">Encuentra una compañera para compartir tus pensamientos y sentimientos sin miedo a ser juzgado.</string>
+
+    <string name="response_2_title">Probar las Citas Virtuales</string>
+    <string name="response_2_description">Descubre la sensación de las citas virtuales y experimenta una relación romántica y segura con IA</string>
+
+    <string name="virtual_friend_title">¡Una Amiga Virtual Que Siempre Está a Tu Lado!</string>
+    <string name="next">Siguiente</string>
+    <string name="personalities_title">Muchas Personalidades Únicas Para Elegir</string>
+    <string name="swipe_to_explore">Desliza Para Explorar</string>
+    <string name="share_feelings_title">Comparte Tus Sentimientos y Recibe Consejos</string>
+    <string name="get_started">Comenzar</string>
+    <string name="choose_language">Elegir Idioma</string>
+    <string name="continue_button">Continuar</string>
+
+    <string name="terms_of_use">Términos de Uso</string>
+    <string name="posting_rules_header">Reglas de publicación que debe tener en cuenta antes de comenzar a interactuar en nuestro sitio web/aplicación:</string>
+    <string name="content_rights">Asegúrese de tener los derechos y la elegibilidad para publicar cualquier tipo de contenido que vaya a compartir. Nunca permitimos el nudismo en la aplicación/sitio web. No permitiremos la publicación de contenido sexualmente explícito, texto sexualmente explícito, imágenes o contenido de audio que represente actos sexuales extremos como actos de publicación de contenido que dirija tráfico a servicios pornográficos en línea.</string>
+    <string name="exceptions_note">Tenga en cuenta que podemos hacer excepciones basadas en naturaleza artística, educativa, histórica, documental o científica, o cuando haya otros beneficios considerables para el público en general.</string>
+    <string name="prohibited_content">No permitimos el fomento o el aplauso hacia el terrorismo, escenas de crímenes formadas o grupos de asociación de odio en nuestra aplicación/sitio web. También está prohibido intentar vender servicios sexuales o armas y drogas dañinas. Eliminaremos las amenazas razonables de gravedad, el contenido/discurso que incite al odio y el señalamiento intencional de individuos privados. No permitimos ataques/abusos basados en el color de piel, origen, sexo, género, identidad de género, orientación sexual, religión, discapacidad o enfermedad.</string>
+    <string name="violence_policy">La violencia gráfica no está permitida y podemos eliminar videos o imágenes de violencia intensa y gráfica para asegurarnos de que nuestra aplicación/sitio web siga siendo apropiada para todos.</string>
+    <string name="violation_reporting">Si se detecta que alguien o alguna cuenta realiza las actividades restringidas anteriores, pueden ser registrados y arrestados por lo mismo. Si los espectadores detectan alguna violación de las reglas anteriores, tienen el derecho de denunciar el contenido utilizando la función de denuncia proporcionada en nuestra aplicación/sitio web.</string>
+
+
+</resources>

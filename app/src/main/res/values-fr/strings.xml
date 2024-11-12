@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petite Amie IA</string>
+    <string name="first_check">Je comprends que le partage de contenu inapproprié ne sera pas toléré.</string>
+    <string name="second_check">Je confirme avoir 18 ans ou plus.</string>
+    <string name="clickforprivacy">En cliquant sur \"Commencer\", vous acceptez les conditions d\'utilisation et la politique de confidentialité ci-dessus.</string>
+
+    <string name="Chat">Discussion</string>
+    <string name="ChatInputHintText">Écrivez quelque chose…</string>
+    <string name="NewCharacters">Nouveaux Personnages !</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">S\'abonner</string>
+    <string name="TalkTo">Parler à</string>
+    <string name="TryTo">Essayer</string>
+    <string name="Unlock">Débloquer</string>
+    <string name="ads_free">Sans publicités</string>
+    <string name="ai_gf_anime_girl">Petite Amie IA</string>
+    <string name="chat_with_ai_gf">Discuter avec une Petite Amie IA</string>
+    <string name="check_network_connection">Vérifiez la connexion réseau</string>
+    <string name="continue_without_premium">Continuer sans premium</string>
+    <string name="copy_toast_msg">Lien copié dans le presse-papiers</string>
+    <string name="current">Actuel</string>
+    <string name="done_btn">Terminé</string>
+    <string name="empty_chat">Vous n\'avez aucune conversation active.</string>
+    <string name="error_a11y_label">Erreur : invalide</string>
+    <string name="fast_processing">Traitement rapide</string>
+    <string name="get_premium">Obtenir Premium</string>
+    <string name="language">Langue</string>
+    <string name="loading_all_gf">Chargement de toutes les petites amies IA...</string>
+    <string name="lovelist">Liste d\'amour</string>
+    <string name="monthly">Mensuel</string>
+    <string name="next_btn">Suivant</string>
+    <string name="please_select_language">Veuillez sélectionner une langue pour continuer</string>
+
+    <string name="onboarding_title_1">Bienvenue dans l\'Amour Virtuel</string>
+    <string name="onboarding_desc_1">Découvrez l\'avenir de la compagnie avec notre petite amie virtuelle alimentée par l\'IA</string>
+
+    <string name="onboarding_title_2">Expérience Personnalisée</string>
+    <string name="onboarding_desc_2">Créez et personnalisez votre compagne parfaite qui comprend et répond à votre personnalité unique</string>
+
+    <string name="onboarding_title_3">Conversations Réelles</string>
+    <string name="onboarding_desc_3">Engagez des conversations significatives propulsées par une technologie IA avancée</string>
+
+    <string name="onboarding_title_4">Commencer</string>
+    <string name="onboarding_desc_4">Votre compagne virtuelle parfaite vous attend</string>
+
+    <string name="welcome_title">Bienvenue sur l\'application\nPetite Amie IA-Amour Virtuel</string>
+    <string name="i_want_to">Je veux...</string>
+
+    <string name="response_1_title">Discuter et Partager mes Sentiments</string>
+    <string name="response_1_description">Trouvez une compagne pour partager vos pensées et sentiments sans crainte d\'être jugé.</string>
+
+    <string name="response_2_title">Essayer les Rencontres Virtuelles</string>
+    <string name="response_2_description">Découvrez les rencontres virtuelles et vivez une relation romantique sûre avec l\'IA</string>
+
+    <string name="virtual_friend_title">Une Amie Virtuelle Toujours à Vos Côtés !</string>
+    <string name="next">Suivant</string>
+    <string name="personalities_title">De Nombreuses Personnalités Uniques à Choisir</string>
+    <string name="swipe_to_explore">Glissez pour Explorer</string>
+    <string name="share_feelings_title">Partagez Vos Sentiments et Recevez des Conseils</string>
+    <string name="get_started">Commencer</string>
+    <string name="choose_language">Choisir la Langue</string>
+    <string name="continue_button">Continuer</string>
+
+    <string name="terms_of_use">Conditions d\'utilisation</string>
+    <string name="posting_rules_header">Règles de publication à respecter avant de commencer à interagir sur notre site web/application :</string>
+    <string name="content_rights">Assurez-vous d\'avoir les droits et l\'éligibilité pour publier tout type de contenu que vous vous apprêtez à partager. Nous n\'autorisons jamais le nudisme sur l\'application/site web. Nous n\'autorisons pas la publication de contenu sexuellement explicite, de textes sexuellement explicites, d\'images ou de contenu audio décrivant des actes sexuels extrêmes tels que la publication de contenu redirigeant vers des services pornographiques en ligne.</string>
+    <string name="exceptions_note">Veuillez noter que nous pouvons faire des exceptions basées sur la nature artistique, éducative, historique, documentaire ou scientifique, ou lorsqu\'il y a d\'autres avantages considérables pour le grand public.</string>
+    <string name="prohibited_content">Nous n\'autorisons pas l\'encouragement ou l\'applaudissement du terrorisme, des scènes de crime organisé ou des groupes d\'association de haine sur notre application/site web. La tentative de vente de services sexuels, d\'armes et de drogues nocives n\'est pas non plus autorisée. Nous supprimerons les menaces raisonnables de gravité, le contenu/discours incitant à la haine et le ciblage intentionnel de particuliers. Nous n\'autorisons pas les attaques/abus basés sur la couleur de peau, l\'origine, le sexe, le genre, l\'identité de genre, l\'orientation sexuelle, la religion, le handicap ou la maladie.</string>
+    <string name="violence_policy">La violence graphique n\'est pas autorisée et nous pouvons supprimer les vidéos ou images de violence intense et graphique pour nous assurer que notre application/site web reste approprié pour tous.</string>
+    <string name="violation_reporting">Si une personne ou un compte est repéré en train de faire les activités restreintes ci-dessus, ils peuvent être réservés et arrêtés pour cela. Si les utilisateurs repèrent des violations des règles ci-dessus, ils ont le droit de nous signaler le contenu en utilisant la fonction de signalement fournie dans notre application/site web.</string>
+
+
+</resources>

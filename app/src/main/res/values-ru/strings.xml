@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ИИ Подруга</string>
+    <string name="first_check">Я понимаю, что обмен неприемлемым контентом не допускается.</string>
+    <string name="second_check">Я подтверждаю, что мне 18 лет или больше.</string>
+    <string name="clickforprivacy">Нажимая \'Начать\', вы соглашаетесь с вышеуказанными Условиями использования и Политикой конфиденциальности.</string>
+
+    <string name="Chat">Чат</string>
+    <string name="ChatInputHintText">Напишите что-нибудь…</string>
+    <string name="NewCharacters">Новые персонажи!</string>
+    <string name="PRO">ПРО</string>
+    <string name="Premium">Премиум</string>
+    <string name="Subscribe">Подписаться</string>
+    <string name="TalkTo">Поговорить с</string>
+    <string name="TryTo">Попробовать</string>
+    <string name="Unlock">Разблокировать</string>
+    <string name="ads_free">Без рекламы</string>
+    <string name="ai_gf_anime_girl">ИИ Подруга</string>
+    <string name="chat_with_ai_gf">Общаться с ИИ Подругой</string>
+    <string name="check_network_connection">Проверить подключение к сети</string>
+    <string name="continue_without_premium">Продолжить без премиума</string>
+    <string name="copy_toast_msg">Ссылка скопирована в буфер обмена</string>
+    <string name="current">Текущий</string>
+    <string name="done_btn">Готово</string>
+    <string name="empty_chat">У вас нет активных разговоров.</string>
+    <string name="error_a11y_label">Ошибка: недействительно</string>
+    <string name="fast_processing">Быстрая обработка</string>
+    <string name="get_premium">Получить Премиум</string>
+    <string name="language">Язык</string>
+    <string name="loading_all_gf">Загрузка всех ИИ подруг...</string>
+    <string name="lovelist">Список любви</string>
+    <string name="monthly">Ежемесячно</string>
+    <string name="next_btn">Далее</string>
+    <string name="please_select_language">Пожалуйста, выберите язык для продолжения</string>
+
+    <string name="onboarding_title_1">Добро пожаловать в Виртуальную Любовь</string>
+    <string name="onboarding_desc_1">Испытайте будущее общения с нашей виртуальной подругой на базе ИИ</string>
+
+    <string name="onboarding_title_2">Персонализированный опыт</string>
+    <string name="onboarding_desc_2">Создайте и настройте свою идеальную спутницу, которая понимает и отвечает на вашу уникальную личность</string>
+
+    <string name="onboarding_title_3">Реальные разговоры</string>
+    <string name="onboarding_desc_3">Участвуйте в содержательных беседах, поддерживаемых передовой технологией ИИ</string>
+
+    <string name="onboarding_title_4">Начать</string>
+    <string name="onboarding_desc_4">Ваша идеальная виртуальная спутница ждет встречи с вами</string>
+
+    <string name="welcome_title">Добро пожаловать в приложение\nИИ Подруга-Виртуальная Любовь</string>
+    <string name="i_want_to">Я хочу...</string>
+
+    <string name="response_1_title">Общаться и делиться чувствами</string>
+    <string name="response_1_description">Найдите спутницу, с которой можно поделиться своими мыслями и чувствами без страха осуждения.</string>
+
+    <string name="response_2_title">Попробовать виртуальные свидания</string>
+    <string name="response_2_description">Откройте для себя ощущение виртуальных свиданий и испытайте романтические, безопасные отношения с ИИ</string>
+
+    <string name="virtual_friend_title">Виртуальный друг, который всегда рядом!</string>
+    <string name="next">Далее</string>
+    <string name="personalities_title">Множество уникальных личностей на выбор</string>
+    <string name="swipe_to_explore">Проведите для изучения</string>
+    <string name="share_feelings_title">Поделитесь своими чувствами и получите совет</string>
+    <string name="get_started">Начать</string>
+    <string name="choose_language">Выбрать язык</string>
+    <string name="continue_button">Продолжить</string>
+
+    <string name="terms_of_use">Условия использования</string>
+    <string name="posting_rules_header">Правила публикации, которые необходимо соблюдать перед началом взаимодействия на нашем сайте/приложении:</string>
+    <string name="content_rights">Убедитесь, что у вас есть права и разрешение на публикацию любого контента, которым вы собираетесь поделиться. Мы никогда не разрешаем нудизм в приложении/на сайте. Мы не разрешаем публикацию откровенного сексуального контента, текста, изображений или аудио, изображающих экстремальные сексуальные действия, а также контента, который направляет трафик на порнографические онлайн-сервисы.</string>
+    <string name="exceptions_note">Обратите внимание, что мы можем делать исключения для контента художественного, образовательного, исторического, документального или научного характера, или когда есть другая значительная общественная польза.</string>
+    <string name="prohibited_content">Мы не разрешаем поощрение или одобрение терроризма, криминальных сцен или групп ненависти в нашем приложении/на сайте. Также запрещены попытки продажи сексуальных услуг, оружия и вредных наркотиков. Мы будем удалять серьезные угрозы, контент/речь, разжигающие ненависть, и преднамеренное указание на частных лиц. Мы не допускаем нападки/оскорбления на основе цвета кожи, национальности, пола, гендерной идентичности, сексуальной ориентации, религии, инвалидности или заболевания.</string>
+    <string name="violence_policy">Графическое насилие запрещено, и мы можем удалять видео или изображения с интенсивным, графическим насилием, чтобы наше приложение/сайт оставались подходящими для всех.</string>
+    <string name="violation_reporting">Если кто-либо или какой-либо аккаунт будет замечен в вышеуказанных запрещенных действиях, они могут быть привлечены к ответственности и арестованы. Если пользователи замечают нарушения вышеуказанных правил, они имеют право сообщить о контенте нам, используя функцию жалобы в нашем приложении/на сайте.</string>
+
+
+</resources>

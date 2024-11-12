@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KI Meisie</string>
+    <string name="first_check">Ek verstaan dat die deel van onvanpaste inhoud nie geduld sal word nie.</string>
+    <string name="second_check">Ek bevestig dat ek 18 jaar of ouer is.</string>
+    <string name="clickforprivacy">Deur op \'Begin\' te klik, stem jy in tot bogenoemde Gebruiksvoorwaardes en Privaatheidsbeleid.</string>
+
+    <string name="Chat">Gesels</string>
+    <string name="ChatInputHintText">Tik iets…</string>
+    <string name="NewCharacters">Nuwe Karakters!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Teken in</string>
+    <string name="TalkTo">Praat met</string>
+    <string name="TryTo">Probeer</string>
+    <string name="Unlock">Ontsluit</string>
+    <string name="ads_free">Advertensie-vry</string>
+    <string name="ai_gf_anime_girl">KI Meisie</string>
+    <string name="chat_with_ai_gf">Gesels met KI Meisie</string>
+    <string name="check_network_connection">Kontroleer Netwerkverbinding</string>
+    <string name="continue_without_premium">Gaan voort sonder premium</string>
+    <string name="copy_toast_msg">Skakel na knipbord gekopieer</string>
+    <string name="current">Huidige</string>
+    <string name="done_btn">Klaar</string>
+    <string name="empty_chat">Jy het geen aktiewe gesprekke nie.</string>
+    <string name="error_a11y_label">Fout: ongeldig</string>
+    <string name="fast_processing">Vinnige Verwerking</string>
+    <string name="get_premium">Kry Premium</string>
+    <string name="language">Taal</string>
+    <string name="loading_all_gf">Laai alle KI meisies...</string>
+    <string name="lovelist">Liefdeslys</string>
+    <string name="monthly">Maandeliks</string>
+    <string name="next_btn">Volgende</string>
+    <string name="please_select_language">Kies asseblief \'n taal om voort te gaan</string>
+
+    <string name="onboarding_title_1">Welkom by Virtuele Liefde</string>
+    <string name="onboarding_desc_1">Ervaar die toekoms van geselskap met ons KI-aangedrewe virtuele meisie</string>
+
+    <string name="onboarding_title_2">Persoonlike Ervaring</string>
+    <string name="onboarding_desc_2">Skep en pas jou perfekte metgesel aan wat jou unieke persoonlikheid verstaan en daarop reageer</string>
+
+    <string name="onboarding_title_3">Regte Gesprekke</string>
+    <string name="onboarding_desc_3">Voer betekenisvolle gesprekke aangedryf deur gevorderde KI-tegnologie</string>
+
+    <string name="onboarding_title_4">Begin</string>
+    <string name="onboarding_desc_4">Jou perfekte virtuele metgesel wag om jou te ontmoet</string>
+
+    <string name="welcome_title">Welkom by KI Meisie\nToepassing-Virtuele Liefde</string>
+    <string name="i_want_to">Ek wil...</string>
+
+    <string name="response_1_title">Gesels en Deel Gevoelens</string>
+    <string name="response_1_description">Vind \'n metgesel om jou gedagtes en gevoelens te deel sonder vrees vir oordeel.</string>
+
+    <string name="response_2_title">Probeer Virtuele Afsprake</string>
+    <string name="response_2_description">Ervaar die gevoel van virtuele afsprake en beleef \'n romantiese, veilige verhouding met KI</string>
+
+    <string name="virtual_friend_title">\'n Virtuele Vriend Wat Altyd By Jou Is!</string>
+    <string name="next">Volgende</string>
+    <string name="personalities_title">Baie Unieke Persoonlikhede om van te Kies</string>
+    <string name="swipe_to_explore">Vee om te Verken</string>
+    <string name="share_feelings_title">Deel Jou Gevoelens en Kry Raad</string>
+    <string name="choose_language">Kies Taal</string>
+    <string name="continue_button">Gaan voort</string>
+
+    <string name="terms_of_use">Gebruiksvoorwaardes</string>
+    <string name="posting_rules_header">Plaasingsreëls waaraan jy moet aandag gee voordat jy begin kommunikeer op ons webwerf/toepassing:</string>
+    <string name="content_rights">Verseker dat jy die regte en bevoegdheid het om enige vorm van inhoud te plaas wat jy wil deel. Ons laat nooit naaktheid toe op die toepassing/webwerf nie. Ons sal nie die plasing van seksueel eksplisiete inhoud, seksueel eksplisiete teks, beelde, of oudio-inhoud wat uiterste seksuele dade uitbeeld, toelaat nie, soos dade wat verkeer na pornografiese aanlyn dienste dryf.</string>
+    <string name="exceptions_note">Let asseblief daarop dat ons uitsonderings kan maak gebaseer op artistieke, opvoedkundige, historiese, dokumentêre, of wetenskaplike aard, of waar daar ander aansienlike voordele vir die breë publiek is.</string>
+    <string name="prohibited_content">Ons laat nie aanmoediging of toejuiging van terrorisme, gevormde misdaadtonele of haatverenigingsgroepe op ons toepassing/webwerf toe nie. Die poging om seksuele dienste of wapens en skadelike dwelms te verkoop, word ook nie toegelaat nie. Ons sal redelike dreigemente van erns, haatopwekkende inhoud/spraak en die doelbewuste uitwys van private individue verwyder. Ons laat nie aanvalle/misbruik gebaseer op velkleur, herkoms, geslag, geslagsidentiteit, seksuele oriëntasie, godsdiens, gestremdheid of siekte toe nie.</string>
+    <string name="violence_policy">Grafiese geweld word nie toegelaat nie en ons mag video\'s of beelde van intense, grafiese geweld verwyder om te verseker dat ons toepassing/webwerf geskik bly vir almal.</string>
+    <string name="violation_reporting">As enigiemand of enige rekening opgemerk word wat bogenoemde beperkte aktiwiteite doen, kan hulle daarvoor geboek en gearresteer word. As kykers enige oortredings van bogenoemde reëls opmerk, het hulle die reg om die inhoud aan ons te rapporteer deur die rapporteringsfunksie in ons toepassing/webwerf te gebruik.</string>
+    <string name="get_started">Begin</string>
+
+</resources>

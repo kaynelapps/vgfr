@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Vriendin</string>
+    <string name="first_check">Ik begrijp dat het delen van ongepaste inhoud niet wordt getolereerd.</string>
+    <string name="second_check">Ik bevestig dat ik 18 jaar of ouder ben.</string>
+    <string name="clickforprivacy">Door op \'Aan de slag\' te klikken, ga je akkoord met de bovenstaande Gebruiksvoorwaarden en het Privacybeleid.</string>
+
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Type iets…</string>
+    <string name="NewCharacters">Nieuwe Karakters!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Abonneren</string>
+    <string name="TalkTo">Praat met</string>
+    <string name="TryTo">Probeer</string>
+    <string name="Unlock">Ontgrendel</string>
+    <string name="ads_free">Advertentievrij</string>
+    <string name="ai_gf_anime_girl">AI Vriendin</string>
+    <string name="chat_with_ai_gf">Chat met AI Vriendin</string>
+    <string name="check_network_connection">Controleer Netwerkverbinding</string>
+    <string name="continue_without_premium">Doorgaan zonder premium</string>
+    <string name="copy_toast_msg">Link gekopieerd naar klembord</string>
+    <string name="current">Huidig</string>
+    <string name="done_btn">Klaar</string>
+    <string name="empty_chat">Je hebt geen actieve gesprekken.</string>
+    <string name="error_a11y_label">Fout: ongeldig</string>
+    <string name="fast_processing">Snelle Verwerking</string>
+    <string name="get_premium">Premium Krijgen</string>
+    <string name="language">Taal</string>
+    <string name="loading_all_gf">Alle AI vriendinnen laden...</string>
+    <string name="lovelist">Liefdelijst</string>
+    <string name="monthly">Maandelijks</string>
+    <string name="next_btn">Volgende</string>
+    <string name="please_select_language">Selecteer een taal om door te gaan</string>
+
+    <string name="onboarding_title_1">Welkom bij Virtuele Liefde</string>
+    <string name="onboarding_desc_1">Ervaar de toekomst van gezelschap met onze AI-aangedreven virtuele vriendin</string>
+
+    <string name="onboarding_title_2">Gepersonaliseerde Ervaring</string>
+    <string name="onboarding_desc_2">Creëer en pas je perfecte metgezel aan die jouw unieke persoonlijkheid begrijpt en erop reageert</string>
+
+    <string name="onboarding_title_3">Echte Gesprekken</string>
+    <string name="onboarding_desc_3">Voer betekenisvolle gesprekken aangedreven door geavanceerde AI-technologie</string>
+
+    <string name="onboarding_title_4">Aan de Slag</string>
+    <string name="onboarding_desc_4">Je perfecte virtuele metgezel wacht om je te ontmoeten</string>
+
+    <string name="welcome_title">Welkom bij AI Vriendin\nApp-Virtuele Liefde</string>
+    <string name="i_want_to">Ik wil...</string>
+
+    <string name="response_1_title">Chatten en Gevoelens Delen</string>
+    <string name="response_1_description">Vind een metgezel om je gedachten en gevoelens te delen zonder angst voor oordeel.</string>
+
+    <string name="response_2_title">Virtueel Daten Proberen</string>
+    <string name="response_2_description">Ontdek het gevoel van virtueel daten en ervaar een romantische, veilige relatie met AI</string>
+
+    <string name="virtual_friend_title">Een Virtuele Vriend Die Altijd Aan Je Zijde Is!</string>
+    <string name="next">Volgende</string>
+    <string name="personalities_title">Vele Unieke Persoonlijkheden om uit te Kiezen</string>
+    <string name="swipe_to_explore">Veeg om te Verkennen</string>
+    <string name="share_feelings_title">Deel Je Gevoelens en Krijg Advies</string>
+    <string name="get_started">Aan de Slag</string>
+    <string name="choose_language">Kies Taal</string>
+    <string name="continue_button">Doorgaan</string>
+
+    <string name="terms_of_use">Gebruiksvoorwaarden</string>
+    <string name="posting_rules_header">Publicatieregels waar u rekening mee moet houden voordat u begint met interactie op onze website/applicatie:</string>
+    <string name="content_rights">Zorg ervoor dat u de rechten en bevoegdheid heeft om alle content te plaatsen die u wilt delen. We staan nooit naaktheid toe op de applicatie/website. We staan geen seksueel expliciete inhoud, seksueel expliciete tekst, afbeeldingen of audio-inhoud toe die extreme seksuele handelingen uitbeelden of content die verkeer stuurt naar pornografische online diensten.</string>
+    <string name="exceptions_note">Houd er rekening mee dat we uitzonderingen kunnen maken op basis van artistieke, educatieve, historische, documentaire of wetenschappelijke aard, of waar er andere aanzienlijke voordelen zijn voor het grote publiek.</string>
+    <string name="prohibited_content">We staan geen aanmoediging of goedkeuring toe van terrorisme, gevormde misdaadscènes of haatgroepen op onze applicatie/website. Het proberen verkopen van seksuele diensten, wapens en schadelijke drugs is ook niet toegestaan. We verwijderen redelijke bedreigingen, haatzaaiende inhoud/spraak en het opzettelijk aanwijzen van privépersonen. We staan geen aanvallen/misbruik toe op basis van huidskleur, afkomst, geslacht, genderidentiteit, seksuele geaardheid, religie, handicap of ziekte.</string>
+    <string name="violence_policy">Grafisch geweld is niet toegestaan en we kunnen video\'s of afbeeldingen van intens, grafisch geweld verwijderen om ervoor te zorgen dat onze applicatie/website geschikt blijft voor iedereen.</string>
+    <string name="violation_reporting">Als iemand of een account wordt betrapt op bovengenoemde verboden activiteiten, kunnen zij hiervoor worden geboekt en gearresteerd. Als kijkers overtredingen van bovenstaande regels opmerken, hebben zij het recht om de inhoud bij ons te melden via de rapportagefunctie in onze applicatie/website.</string>
+
+
+</resources>

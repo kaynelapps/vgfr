@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Girlfriend</string>
+    <string name="first_check">Naiintindihan ko na hindi tatanggapin ang pagbabahagi ng hindi angkop na nilalaman.</string>
+    <string name="second_check">Kinukumpirma ko na ako ay 18 taong gulang o mas matanda pa.</string>
+    <string name="clickforprivacy">Sa pag-click ng \'Magsimula\', sumasang-ayon ka sa mga Tuntunin ng Paggamit at Patakaran sa Privacy sa itaas.</string>
+
+    <string name="Chat">Chat</string>
+    <string name="ChatInputHintText">Mag-type ng mensahe…</string>
+    <string name="NewCharacters">Bagong mga Karakter!</string>
+    <string name="PRO">PRO</string>
+    <string name="Premium">Premium</string>
+    <string name="Subscribe">Mag-subscribe</string>
+    <string name="TalkTo">Kausapin si</string>
+    <string name="TryTo">Subukan</string>
+    <string name="Unlock">I-unlock</string>
+    <string name="ads_free">Walang Ads</string>
+    <string name="ai_gf_anime_girl">AI Girlfriend</string>
+    <string name="chat_with_ai_gf">Makipag-chat sa AI Girlfriend</string>
+    <string name="check_network_connection">Suriin ang Network Connection</string>
+    <string name="continue_without_premium">Magpatuloy nang walang premium</string>
+    <string name="copy_toast_msg">Na-copy ang link sa clipboard</string>
+    <string name="current">Kasalukuyan</string>
+    <string name="done_btn">Tapos na</string>
+    <string name="empty_chat">Wala kang aktibong pag-uusap.</string>
+    <string name="error_a11y_label">Error: hindi wasto</string>
+    <string name="fast_processing">Mabilis na Pagproseso</string>
+    <string name="get_premium">Kunin ang Premium</string>
+    <string name="language">Wika</string>
+    <string name="loading_all_gf">Naglo-load ng lahat ng AI girlfriends...</string>
+    <string name="lovelist">Listahan ng Pag-ibig</string>
+    <string name="monthly">Buwanan</string>
+    <string name="next_btn">Susunod</string>
+    <string name="please_select_language">Mangyaring pumili ng wika para magpatuloy</string>
+
+    <string name="onboarding_title_1">Maligayang Pagdating sa Virtual Love</string>
+    <string name="onboarding_desc_1">Maranasan ang hinaharap ng pakikipagkaibigan sa aming AI-powered na virtual girlfriend</string>
+
+    <string name="onboarding_title_2">Personalized na Karanasan</string>
+    <string name="onboarding_desc_2">Gumawa at i-customize ang iyong perpektong kasama na nakakaunawa at tumutugon sa iyong natatanging personalidad</string>
+
+    <string name="onboarding_title_3">Tunay na mga Pag-uusap</string>
+    <string name="onboarding_desc_3">Makisali sa makabuluhang mga pag-uusap na pinapagana ng advanced na AI technology</string>
+
+    <string name="onboarding_title_4">Magsimula</string>
+    <string name="onboarding_desc_4">Ang iyong perpektong virtual na kasama ay naghihintay na makilala ka</string>
+
+    <string name="welcome_title">Maligayang Pagdating sa AI Girlfriend\nApp-Virtual Love</string>
+    <string name="i_want_to">Gusto kong...</string>
+
+    <string name="response_1_title">Makipag-chat at Magbahagi ng Damdamin</string>
+    <string name="response_1_description">Humanap ng kasama para maibahagi ang iyong mga iniisip at damdamin nang walang takot na mahusgahan.</string>
+
+    <string name="response_2_title">Subukan ang Virtual Dating</string>
+    <string name="response_2_description">Maranasan ang pakiramdam ng virtual dating at makaranas ng romantiko at ligtas na relasyon sa AI</string>
+
+    <string name="virtual_friend_title">Isang Virtual na Kaibigan na Laging Nasa Tabi Mo!</string>
+    <string name="next">Susunod</string>
+    <string name="personalities_title">Maraming Natatanging Personalidad na Mapagpipilian</string>
+    <string name="swipe_to_explore">I-swipe para Mag-explore</string>
+    <string name="share_feelings_title">Ibahagi ang Iyong Damdamin at Kumuha ng Payo</string>
+    <string name="get_started">Magsimula</string>
+    <string name="choose_language">Pumili ng Wika</string>
+    <string name="continue_button">Magpatuloy</string>
+
+    <string name="terms_of_use">Mga Tuntunin ng Paggamit</string>
+    <string name="posting_rules_header">Mga patakaran sa pag-post na dapat mong isaalang-alang bago magsimulang makipag-ugnayan sa aming website/application:</string>
+    <string name="content_rights">Tinitiyak na mayroon kang mga karapatan at kwalipikasyon na mag-post ng anumang uri ng nilalaman na iyong ibabahagi. Hindi namin pinapayagan ang kahubaran sa application/website. Hindi namin pinapayagan ang pag-post ng mahalay na nilalaman, mahalay na teksto, mga larawan, o audio na nilalaman na nagpapakita ng matinding sekswal na gawain tulad ng mga gawaing nagpo-post ng Nilalaman na nagdadala ng traffic sa mga pornographic na online na serbisyo.</string>
+    <string name="exceptions_note">Mangyaring tandaan na maaari kaming gumawa ng mga eksepsyon batay sa artistiko, pang-edukasyon, pangkasaysayan, dokumentaryo, o siyentipikong kalikasan, o kung saan may iba pang mahahalagang benepisyo para sa publiko.</string>
+    <string name="prohibited_content">Hindi namin pinapayagan ang paghikayat o pagpuri sa terorismo, mga eksena ng krimen o mga grupo ng galit sa aming application/website. Hindi rin pinapayagan ang pagtatangkang magbenta ng mga sekswal na serbisyo o armas at mapanganib na droga. Aalisin namin ang mga makatuwirang banta ng kalubhaan, nilalaman/pananalita na nagdudulot ng galit at ang sinadyang pagtukoy sa mga pribadong indibidwal. Hindi namin pinapayagan ang mga pag-atake/pang-aabuso batay sa kulay ng balat, pinagmulan, kasarian, pagkakakilanlan ng kasarian, sekswal na oryentasyon, relihiyon, kapansanan o sakit.</string>
+    <string name="violence_policy">Hindi pinapayagan ang marahas na nilalaman at maaari naming alisin ang mga video o larawan ng matinding, marahas na karahasan upang matiyak na ang aming application/website ay nananatiling angkop para sa lahat.</string>
+    <string name="violation_reporting">Kung sinuman o anumang account ay nahuli na gumagawa ng mga ipinagbabawal na gawain sa itaas ay maaaring makasuhan at maaresto para dito. Kung may makita ang mga manonood na paglabag sa mga patakaran sa itaas, may karapatan silang ireport ang nilalaman sa amin gamit ang feature ng pag-report na ibinigay sa aming application/website.</string>
+
+
+</resources>

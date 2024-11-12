@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9547c</color>
+    <color name="colorPrimaryDark">#f9547c</color>
+    <color name="colorAccent">#f9547c</color>
+
+    <color name="primarymain">#f9547c</color>
+    <color name="colorlight">#0f0e0e</color>
+
+    <color name="colorlightdark">#0f0e0e</color>
+
+    <color name="adstext">#FFFFFF</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blackads">#1a1a1a</color>
+    <color name="black1">#4c4c4c</color>
+
+
+    <color name="appcolor">#f9547c</color>
+    <color name="black20">#33000000</color>
+    <color name="black60">#99000000</color>
+    <color name="color_200317">#200317</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_4C3040">#4c3040</color>
+    <color name="color_64374D">#64374d</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_ADADAD">#adadad</color>
+    <color name="color_CD335C">#cd335c</color>
+    <color name="color_DD726C">#dd726c</color>
+    <color name="color_E4CDDC">#e4cddc</color>
+    <color name="color_E6E3E3">#e6e3e3</color>
+    <color name="color_FF3E71">#f9547c</color>
+    <color name="color_FF618A">#ff618a</color>
+    <color name="color_FF837C">#ff837c</color>
+    <color name="color_FFAD00">#ffad00</color>
+    <color name="color_FFE85B">#ffe85b</color>
+    <color name="defaultTextColor">#ffffff</color>
+    <color name="errorColor">#d50000</color>
+    <color name="infoColor">#3f51b5</color>
+    <color name="normalColor">#353a3e</color>
+    <color name="purple_200">#ffbb86fc</color>
+    <color name="purple_500">#ff6200ee</color>
+    <color name="purple_700">#ff3700b3</color>
+    <color name="shimmer_color">#989898</color>
+    <color name="successColor">#388e3c</color>
+    <color name="teal_200">#ff03dac5</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="warningColor">#ffa900</color>
+    <color name="white20">#33ffffff</color>
+    <color name="white30">#4dffffff</color>
+    <color name="white85">#d9ffffff</color>
+    <color name="white1">#e5e5e5</color>
+
+    <color name="onboarding_bg_1">#FF6B6B</color>
+    <color name="onboarding_bg_2">#4ECDC4</color>
+    <color name="onboarding_bg_3">#45B7D1</color>
+    <color name="onboarding_bg_4">#96CEB4</color>
+    <color name="dot_active">#FFFFFF</color>
+    <color name="dot_inactive">#80FFFFFF</color>
+
+    <color name="primary">#2563EB</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+
+
+</resources>

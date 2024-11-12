@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
+
+    <!--<style name="AdAttributionadmob">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal</item>
+        <item name="android:background">@drawable/ad_btn_install</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">AD</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="elevation">2dp</item>
+    </style>-->
+
+    <style name="TransparentBackground">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeChatAiGirlFriend" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorPrimary">@color/appcolor</item>
+        <item name="colorPrimaryVariant">@color/appcolor</item>
+        <item name="colorSecondary">@color/appcolor</item>
+        <item name="colorSecondaryVariant">@color/appcolor</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="scroll_style">
+        <item name="android:scrollbarSize">5dp</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_bar</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+</resources>

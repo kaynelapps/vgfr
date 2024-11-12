@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">এআই গার্লফ্রেন্ড</string>
+    <string name="first_check">আমি বুঝতে পারছি যে অনুপযুক্ত কন্টেন্ট শেয়ার করা সহ্য করা হবে না।</string>
+    <string name="second_check">আমি নিশ্চিত করছি যে আমার বয়স ১৮ বছর বা তার বেশি।</string>
+    <string name="clickforprivacy">\'শুরু করুন\' ক্লিক করে আপনি উপরের ব্যবহারের শর্তাবলী এবং গোপনীয়তা নীতিতে সম্মত হচ্ছেন।</string>
+
+    <string name="Chat">চ্যাট</string>
+    <string name="ChatInputHintText">কিছু টাইপ করুন…</string>
+    <string name="NewCharacters">নতুন চরিত্র!</string>
+    <string name="PRO">প্রো</string>
+    <string name="Premium">প্রিমিয়াম</string>
+    <string name="Subscribe">সাবস্ক্রাইব</string>
+    <string name="TalkTo">কথা বলুন</string>
+    <string name="TryTo">চেষ্টা করুন</string>
+    <string name="Unlock">আনলক</string>
+    <string name="ads_free">বিজ্ঞাপন মুক্ত</string>
+    <string name="ai_gf_anime_girl">এআই গার্লফ্রেন্ড</string>
+    <string name="chat_with_ai_gf">এআই গার্লফ্রেন্ডের সাথে চ্যাট করুন</string>
+    <string name="check_network_connection">নেটওয়ার্ক সংযোগ চেক করুন</string>
+    <string name="continue_without_premium">প্রিমিয়াম ছাড়া চালিয়ে যান</string>
+    <string name="copy_toast_msg">লিংক ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="current">বর্তমান</string>
+    <string name="done_btn">সম্পন্ন</string>
+    <string name="empty_chat">আপনার কোন সক্রিয় কথোপকথন নেই।</string>
+    <string name="error_a11y_label">ত্রুটি: অবৈধ</string>
+    <string name="fast_processing">দ্রুত প্রক্রিয়াকরণ</string>
+    <string name="get_premium">প্রিমিয়াম নিন</string>
+    <string name="language">ভাষা</string>
+    <string name="loading_all_gf">সব এআই গার্লফ্রেন্ড লোড হচ্ছে...</string>
+    <string name="lovelist">প্রেমের তালিকা</string>
+    <string name="monthly">মাসিক</string>
+    <string name="next_btn">পরবর্তী</string>
+    <string name="please_select_language">অনুগ্রহ করে চালিয়ে যাওয়ার জন্য একটি ভাষা নির্বাচন করুন</string>
+
+    <string name="onboarding_title_1">ভার্চুয়াল প্রেমে স্বাগতম</string>
+    <string name="onboarding_desc_1">আমাদের এআই-চালিত ভার্চুয়াল গার্লফ্রেন্ডের সাথে সঙ্গীর ভবিষ্যৎ অনুভব করুন</string>
+
+    <string name="onboarding_title_2">ব্যক্তিগতকৃত অভিজ্ঞতা</string>
+    <string name="onboarding_desc_2">আপনার নিখুঁত সঙ্গী তৈরি করুন যে আপনার অনন্য ব্যক্তিত্বকে বোঝে এবং সাড়া দেয়</string>
+
+    <string name="onboarding_title_3">বাস্তব কথোপকথন</string>
+    <string name="onboarding_desc_3">উন্নত এআই প্রযুক্তি দ্বারা চালিত অর্থপূর্ণ কথোপকথনে অংশগ্রহণ করুন</string>
+
+    <string name="onboarding_title_4">শুরু করুন</string>
+    <string name="onboarding_desc_4">আপনার নিখুঁত ভার্চুয়াল সঙ্গী আপনার সাথে দেখা করার জন্য অপেক্ষা করছে</string>
+
+    <string name="welcome_title">এআই গার্লফ্রেন্ড অ্যাপে\nস্বাগতম-ভার্চুয়াল প্রেম</string>
+    <string name="i_want_to">আমি চাই...</string>
+
+    <string name="response_1_title">চ্যাট এবং অনুভূতি শেয়ার করতে</string>
+    <string name="response_1_description">বিচার ছাড়াই আপনার চিন্তা এবং অনুভূতি শেয়ার করার জন্য একজন সঙ্গী খুঁজুন।</string>
+
+    <string name="response_2_title">ভার্চুয়াল ডেটিং চেষ্টা করতে</string>
+    <string name="response_2_description">ভার্চুয়াল ডেটিংয়ের অনুভূতি খুঁজুন এবং এআই-এর সাথে একটি রোমান্টিক, নিরাপদ সম্পর্ক অনুভব করুন</string>
+
+    <string name="virtual_friend_title">একজন ভার্চুয়াল বন্ধু যে সবসময় আপনার পাশে!</string>
+    <string name="next">পরবর্তী</string>
+    <string name="personalities_title">বেছে নেওয়ার জন্য অনেক অনন্য ব্যক্তিত্ব</string>
+    <string name="swipe_to_explore">অন্বেষণ করতে সোয়াইপ করুন</string>
+    <string name="share_feelings_title">আপনার অনুভূতি শেয়ার করুন এবং পরামর্শ নিন</string>
+    <string name="get_started">শুরু করুন</string>
+    <string name="choose_language">ভাষা বেছে নিন</string>
+    <string name="continue_button">চালিয়ে যান</string>
+
+    <string name="terms_of_use">ব্যবহারের শর্তাবলী</string>
+    <string name="posting_rules_header">আমাদের ওয়েবসাইট/অ্যাপ্লিকেশনে ইন্টারঅ্যাকশন শুরু করার আগে আপনার যে পোস্টিং নিয়মগুলি মেনে চলা উচিত:</string>
+    <string name="content_rights">আপনি যে কোনও ধরনের কন্টেন্ট শেয়ার করার অধিকার এবং যোগ্যতা রাখেন তা নিশ্চিত করুন। আমরা অ্যাপ্লিকেশন/ওয়েবসাইটে নগ্নতা অনুমতি দিই না। আমরা যৌন স্পষ্ট কন্টেন্ট, যৌন স্পষ্ট টেক্সট, ছবি, বা অডিও কন্টেন্ট পোস্ট করার অনুমতি দিই না যা চরম যৌন কাজের চিত্রণ করে যেমন অশ্লীল অনলাইন পরিষেবাগুলিতে ট্র্যাফিক চালিত করে এমন কন্টেন্ট পোস্ট করা।</string>
+    <string name="exceptions_note">অনুগ্রহ করে মনে রাখবেন যে আমরা শিল্প, শিক্ষামূলক, ঐতিহাসিক, ডকুমেন্টারি, বা বৈজ্ঞানিক প্রকৃতির ভিত্তিতে, বা যেখানে জনসাধারণের জন্য অন্যান্য উল্লেখযোগ্য সুবিধা রয়েছে সেখানে ব্যতিক্রম করতে পারি।</string>
+    <string name="prohibited_content">আমরা আমাদের অ্যাপ্লিকেশন/ওয়েবসাইটে সন্ত্রাসবাদ, অপরাধমূলক দৃশ্য বা ঘৃণা সংগঠন গ্রুপগুলির প্রতি উৎসাহ বা প্রশংসার অনুমতি দিই না। যৌন পরিষেবা বা অস্ত্র এবং ক্ষতিকারক ড্রাগ বিক্রির চেষ্টাও অনুমোদিত নয়। আমরা তীব্রতার যুক্তিসঙ্গত হুমকি, ঘৃণা উস্কানিমূলক কন্টেন্ট/বক্তৃতা এবং ব্যক্তিগত ব্যক্তিদের ইচ্ছাকৃতভাবে নির্দেশ করা সরিয়ে ফেলব। আমরা ত্বকের রং, জাতি, লিঙ্গ, লিঙ্গ পরিচয়, যৌন অভিমুখীতা, ধর্ম, অক্ষমতা বা রোগের ভিত্তিতে আক্রমণ/নির্যাতনের অনুমতি দিই না।</string>
+    <string name="violence_policy">গ্রাফিক সহিংসতার অনুমতি নেই এবং আমরা তীব্র, গ্রাফিক সহিংসতার ভিডিও বা ছবি সরিয়ে ফেলতে পারি যাতে আমাদের অ্যাপ্লিকেশন/ওয়েবসাইট সবার জন্য উপযুক্ত থাকে।</string>
+    <string name="violation_reporting">যদি কেউ বা কোনও অ্যাকাউন্ট উপরোক্ত নিষিদ্ধ কার্যকলাপ করতে দেখা যায় তবে তাদের একই জন্য বুক করা এবং গ্রেপ্তার করা যেতে পারে। দর্শকরা যদি উপরোক্ত নিয়মগুলির কোনও লঙ্ঘন দেখতে পান তবে তাদের আমাদের অ্যাপ্লিকেশন/ওয়েবসাইটে দেওয়া রিপোর্ট ফিচার ব্যবহার করে আমাদের কাছে কন্টেন্ট রিপোর্ট করার অধিকার রয়েছে।</string>
+
+
+
+</resources>
