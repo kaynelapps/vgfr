@@ -13,6 +13,8 @@ import com.aigirlfriend.virtuallove.R;
 import com.aigirlfriend.virtuallove.config.AdsConfig;
 import com.ads.control.ads.AperoAd;
 import com.ads.control.ads.AperoAdCallback;
+import com.ads.control.ads.wrapper.ApAdError;
+
 
 
 public class PrivacyTermsActivity extends AppCompatActivity {

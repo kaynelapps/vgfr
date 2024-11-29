@@ -19,6 +19,9 @@ import com.aigirlfriend.virtuallove.config.BuildConfig
 import android.view.View
 import android.os.Handler
 import android.os.Looper
+import android.view.MotionEvent
+import kotlin.math.abs
+
 
 class OnboardingScreen2Activity : AppCompatActivity() {
     private lateinit var imageViewPager: ViewPager2
@@ -33,7 +36,18 @@ class OnboardingScreen2Activity : AppCompatActivity() {
         imageViewPager = findViewById(R.id.imageViewPager)
         nextButton = findViewById(R.id.nextButton)
 
-        // Set first dot as rectangle (pink), others as regular dots (grey)
+        // Set up tap detection for test mode
+        val rootView = findViewById<View>(android.R.id.content)
+        var tapCount = 0
+        rootView.setOnClickListener {
+            tapCount++
+            if (tapCount >= 5) {
+                AperoAd.getInstance().isShowMessageTester = true
+                tapCount = 0
+            }
+        }
+
+        // Rest of your existing onCreate code
         findViewById<View>(R.id.dot_1).apply {
             layoutParams.width = resources.getDimensionPixelSize(R.dimen.rectangle_width)
             background = getDrawable(R.drawable.rectangle_on)
@@ -46,39 +60,26 @@ class OnboardingScreen2Activity : AppCompatActivity() {
         setupImageCarousel()
         setupNextButton()
         loadNativeAd()
+        setupSwipeNavigation()
     }
+
 
     private fun loadNativeAd() {
         val adContainer = findViewById<FrameLayout>(R.id.nativeAdContainer)
         val shimmerContainer = findViewById<ShimmerFrameLayout>(R.id.shimmerContainer)
 
-        if (BuildConfig.DEBUG) {
-            shimmerContainer.visibility = View.GONE
-            return
-        }
-
         AperoAd.getInstance().loadNativeAd(
             this,
-            AdsConfig.NATIVE_HOME,
+            BuildConfig.ads_native_onboard2,
             R.layout.native_ad_template,
             adContainer,
             shimmerContainer,
-            object : AperoAdCallback() {
-                override fun onNativeAdLoaded(nativeAd: ApNativeAd) {
-                    AperoAd.getInstance().populateNativeAdView(
-                        this@OnboardingScreen2Activity,
-                        nativeAd,
-                        adContainer,
-                        shimmerContainer
-                    )
-                }
-
-                override fun onAdFailedToLoad(error: ApAdError?) {
-                    shimmerContainer.visibility = View.GONE
-                }
-            }
+            object : AperoAdCallback() {}
         )
     }
+
+
+
 
     private fun setupImageCarousel() {
         imageAdapter = ImageCarouselAdapter(listOf(
@@ -93,10 +94,43 @@ class OnboardingScreen2Activity : AppCompatActivity() {
 
     private fun setupNextButton() {
         nextButton.setOnClickListener {
-            startActivity(Intent(this, OnboardingScreen3Activity::class.java))
+            val intent = Intent(this, OnboardingScreen3Activity::class.java)
+            startActivity(intent)
+            finish() // Add this to prevent going back to screen 1
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
+
+    private fun setupSwipeNavigation() {
+        val rootView = findViewById<View>(android.R.id.content)
+        var startX = 0f
+
+        rootView.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    startX = event.x
+                    true
+                }
+                MotionEvent.ACTION_UP -> {
+                    val endX = event.x
+                    val diffX = startX - endX
+
+                    if (abs(diffX) > 100) {
+                        if (diffX > 0) {
+                            val intent = Intent(this, OnboardingScreen3Activity::class.java)
+                            startActivity(intent)
+                            finish() // Add this to prevent going back to screen 1
+                            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                        }
+                    }
+                    true
+                }
+                else -> false
+            }
+        }
+    }
+
+
 
     private fun startAutoSlide() {
         val handler = Handler(Looper.getMainLooper())

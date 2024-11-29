@@ -22,6 +22,15 @@ import com.google.android.gms.ads.nativead.NativeAd
 import com.aigirlfriend.virtuallove.onboarding.OnboardingScreen2Activity
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import com.google.android.gms.ads.nativead.NativeAdView
+import android.view.MotionEvent
+import kotlin.math.abs
+import com.ads.control.ads.AperoAd
+import com.ads.control.ads.AperoAdCallback
+import com.ads.control.ads.wrapper.ApNativeAd
+import com.ads.control.ads.wrapper.ApAdError
+
+
+
 
 class OnboardingScreen1Activity : AppCompatActivity() {
     private lateinit var nextButton: ImageButton
@@ -37,64 +46,38 @@ class OnboardingScreen1Activity : AppCompatActivity() {
 
         setupButtons()
         loadNativeAd()
+        setupSwipeNavigation()
+
+        // Add tap detection for test mode
+        val rootView = findViewById<View>(android.R.id.content)
+        var tapCount = 0
+        rootView.setOnClickListener {
+            tapCount++
+            if (tapCount >= 5) {
+                AperoAd.getInstance().isShowMessageTester = true
+                tapCount = 0
+            }
+        }
     }
+
 
     private fun loadNativeAd() {
         val adContainer = findViewById<FrameLayout>(R.id.nativeAdContainer)
         val shimmerContainer = findViewById<ShimmerFrameLayout>(R.id.shimmerContainer)
 
-        if (BuildConfig.DEBUG) {
-            shimmerContainer.visibility = View.GONE
-            return
-        }
-
-        val adLoader = AdLoader.Builder(this, AdsConfig.NATIVE_HOME)
-            .forNativeAd { nativeAd ->
-                val adView = layoutInflater.inflate(R.layout.native_ad_template, null) as NativeAdView
-
-                adView.headlineView = adView.findViewById(R.id.ad_headline)
-                adView.mediaView = adView.findViewById(R.id.ad_media)
-                adView.bodyView = adView.findViewById(R.id.ad_body)
-                adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
-                adView.iconView = adView.findViewById(R.id.ad_app_icon)
-                adView.advertiserView = adView.findViewById(R.id.ad_advertiser)
-
-                (adView.headlineView as TextView).text = nativeAd.headline
-                (adView.bodyView as TextView).text = nativeAd.body
-                (adView.callToActionView as Button).text = nativeAd.callToAction
-
-                nativeAd.mediaContent?.let { adView.mediaView?.setMediaContent(it) }
-
-                nativeAd.icon?.let {
-                    (adView.iconView as ImageView).setImageDrawable(it.drawable)
-                    adView.iconView?.visibility = View.VISIBLE
-                }
-
-                nativeAd.advertiser?.let {
-                    (adView.advertiserView as TextView).text = it
-                    adView.advertiserView?.visibility = View.VISIBLE
-                }
-
-                adView.setNativeAd(nativeAd)
-
-                shimmerContainer.visibility = View.GONE
-                adContainer.removeAllViews()
-                adContainer.addView(adView)
-            }
-            .withAdListener(object : AdListener() {
-                override fun onAdFailedToLoad(error: LoadAdError) {
-                    shimmerContainer.visibility = View.GONE
-                }
-            })
-            .withNativeAdOptions(
-                NativeAdOptions.Builder()
-                    .setAdChoicesPlacement(NativeAdOptions.ADCHOICES_TOP_RIGHT)
-                    .build()
-            )
-            .build()
-
-        adLoader.loadAd(AdRequest.Builder().build())
+        AperoAd.getInstance().loadNativeAd(
+            this,
+            BuildConfig.ads_native_onboard1_high,
+            R.layout.native_ad_template,
+            adContainer,
+            shimmerContainer,
+            object : AperoAdCallback() {}
+        )
     }
+
+
+
+
 
     private fun setupButtons() {
         responseGroup.setOnCheckedChangeListener { _, _ ->
@@ -106,6 +89,33 @@ class OnboardingScreen1Activity : AppCompatActivity() {
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
+    private fun setupSwipeNavigation() {
+        val rootView = findViewById<View>(android.R.id.content)
+        var startX = 0f
+
+        rootView.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    startX = event.x
+                    true
+                }
+                MotionEvent.ACTION_UP -> {
+                    val endX = event.x
+                    val diffX = startX - endX
+
+                    if (abs(diffX) > 100) { // Minimum swipe distance
+                        if (diffX > 0) { // Swipe left
+                            startActivity(Intent(this, OnboardingScreen2Activity::class.java))
+                            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                        }
+                    }
+                    true
+                }
+                else -> false
+            }
+        }
+    }
+
 
     override fun onDestroy() {
         adLoader = null

@@ -34,6 +34,8 @@ import com.google.android.gms.ads.nativead.NativeAdView
 import android.content.SharedPreferences
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
+import com.ads.control.ads.AperoAd
+
 
 
 class LanguageActivity : AppCompatActivity() {
@@ -52,10 +54,19 @@ class LanguageActivity : AppCompatActivity() {
         super.attachBaseContext(newBase)
     }
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_language)
+
+        val rootView = findViewById<View>(android.R.id.content)
+        var tapCount = 0
+        rootView.setOnClickListener {
+            tapCount++
+            if (tapCount >= 5) {
+                AperoAd.getInstance().isShowMessageTester = true
+                tapCount = 0
+            }
+        }
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -68,7 +79,6 @@ class LanguageActivity : AppCompatActivity() {
         loadShimmerEffect()
         loadNativeAd()
     }
-
     private fun initViews() {
         rvLanguages = findViewById(R.id.rvLanguages)
         btnContinue = findViewById(R.id.btnContinue)
@@ -101,6 +111,15 @@ class LanguageActivity : AppCompatActivity() {
         }
     }
 
+    private fun loadShimmerEffect() {
+        shimmerLayout.visibility = View.VISIBLE
+        rvLanguages.visibility = View.GONE
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            shimmerLayout.visibility = View.GONE
+            rvLanguages.visibility = View.VISIBLE
+        }, 1500)
+    }
     private fun getLanguageList(): List<LanguageModel> {
         val languages = mutableListOf<LanguageModel>()
         val currentLanguage = Locale.getDefault().language
@@ -129,51 +148,13 @@ class LanguageActivity : AppCompatActivity() {
         return languages
     }
 
-    private fun loadShimmerEffect() {
-        shimmerLayout.visibility = View.VISIBLE
-        rvLanguages.visibility = View.GONE
-
-        Handler(Looper.getMainLooper()).postDelayed({
-            shimmerLayout.visibility = View.GONE
-            rvLanguages.visibility = View.VISIBLE
-        }, 1500)
-    }
-
     private fun loadNativeAd() {
-        if (BuildConfig.DEBUG) {
-            shimmerNative.visibility = View.GONE
-            return
-        }
+        shimmerNative.visibility = View.VISIBLE
 
-        val adLoader = AdLoader.Builder(this, AdsConfig.NATIVE_HOME)
+        val adLoader = AdLoader.Builder(this, BuildConfig.ads_native_language1)
             .forNativeAd { nativeAd ->
                 val adView = layoutInflater.inflate(R.layout.native_ad_template, null) as NativeAdView
-
-                adView.headlineView = adView.findViewById(R.id.ad_headline)
-                adView.mediaView = adView.findViewById(R.id.ad_media)
-                adView.bodyView = adView.findViewById(R.id.ad_body)
-                adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
-                adView.iconView = adView.findViewById(R.id.ad_app_icon)
-                adView.advertiserView = adView.findViewById(R.id.ad_advertiser)
-
-                (adView.headlineView as TextView).text = nativeAd.headline
-                (adView.bodyView as TextView).text = nativeAd.body
-                (adView.callToActionView as Button).text = nativeAd.callToAction
-
-                nativeAd.mediaContent?.let { adView.mediaView?.setMediaContent(it) }
-
-                nativeAd.icon?.let {
-                    (adView.iconView as ImageView).setImageDrawable(it.drawable)
-                    adView.iconView?.visibility = View.VISIBLE
-                }
-
-                nativeAd.advertiser?.let {
-                    (adView.advertiserView as TextView).text = it
-                    adView.advertiserView?.visibility = View.VISIBLE
-                }
-
-                adView.setNativeAd(nativeAd)
-
+                populateNativeAdView(nativeAd, adView)
                 shimmerNative.visibility = View.GONE
                 nativeAdContainer.removeAllViews()
                 nativeAdContainer.addView(adView)
@@ -183,14 +164,37 @@ class LanguageActivity : AppCompatActivity() {
                     shimmerNative.visibility = View.GONE
                 }
             })
-            .withNativeAdOptions(
-                NativeAdOptions.Builder()
-                    .setAdChoicesPlacement(NativeAdOptions.ADCHOICES_TOP_RIGHT)
-                    .build()
-            )
+            .withNativeAdOptions(NativeAdOptions.Builder().build())
             .build()
 
         adLoader.loadAd(AdRequest.Builder().build())
+    }
+
+    private fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView) {
+        adView.apply {
+            headlineView = findViewById(R.id.ad_headline)
+            mediaView = findViewById(R.id.ad_media)
+            bodyView = findViewById(R.id.ad_body)
+            callToActionView = findViewById(R.id.ad_call_to_action)
+            iconView = findViewById(R.id.ad_app_icon)
+            advertiserView = findViewById(R.id.ad_advertiser)
+
+            (headlineView as TextView).text = nativeAd.headline
+            (bodyView as TextView).text = nativeAd.body
+            (callToActionView as Button).text = nativeAd.callToAction
+
+            nativeAd.mediaContent?.let { mediaView?.setMediaContent(it) }
+            nativeAd.icon?.let {
+                (iconView as ImageView).setImageDrawable(it.drawable)
+                iconView?.visibility = View.VISIBLE
+            }
+            nativeAd.advertiser?.let {
+                (advertiserView as TextView).text = it
+                advertiserView?.visibility = View.VISIBLE
+            }
+
+            setNativeAd(nativeAd)
+        }
     }
 
     private fun saveLanguagePreference(languageCode: String) {
@@ -199,17 +203,8 @@ class LanguageActivity : AppCompatActivity() {
             putBoolean("language_selected", true)
             apply()
         }
-
-        // Update locale and recreate activity to apply changes
         LocaleHelper.setLocale(this, languageCode)
         updateConfiguration(languageCode)
-    }
-
-    private fun recreateActivity() {
-        val newIntent = getIntent()
-        finish()
-        startActivity(newIntent)
-        overridePendingTransition(0, 0)
     }
 
     private fun startOnboardingScreen1Fragment() {
@@ -223,14 +218,10 @@ class LanguageActivity : AppCompatActivity() {
     private fun updateConfiguration(languageCode: String) {
         val locale = Locale(languageCode)
         Locale.setDefault(locale)
-
         val config = resources.configuration
         config.setLocale(locale)
-
         createConfigurationContext(config)
         resources.updateConfiguration(config, resources.displayMetrics)
-
-        // Recreate activity to apply changes
         recreate()
     }
 

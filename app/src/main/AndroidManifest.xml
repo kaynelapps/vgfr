@@ -82,6 +82,10 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".onboarding.NativeFullscreenActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".onboarding.OnboardingScreen3Activity"
             android:exported="false"
             android:screenOrientation="portrait" />

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
+    <com.google.android.gms.ads.nativead.NativeAdView
         android:id="@+id/frAds"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -14,7 +14,7 @@
             android:id="@+id/includeNativeFullScreen"
             layout="@layout/native_fullscreen_shimmer"
             android:visibility="visible" />
-    </FrameLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/icClose"

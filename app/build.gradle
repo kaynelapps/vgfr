@@ -3,8 +3,9 @@ apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 apply plugin: 'org.jetbrains.kotlin.android'
 apply plugin: 'com.google.gms.google-services'
 
-def appcompat_version = "1.6.1"
-def lifecycle_version = "2.6.2"
+// Update version constants
+def appcompat_version = '1.6.1'  // Changed from 1.7.0
+def lifecycle_version = '2.6.2'  // Changed from 2.8.7
 
 configurations.all {
     resolutionStrategy {
@@ -42,6 +43,32 @@ android {
         buildConfig true
         dataBinding true
     }
+    bundle {
+        language {
+            enableSplit = true
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("keystore/barzodev.keystore")
+            storePassword "xclavis"
+            keyAlias "barzo"
+            keyPassword "xclavis"
+        }
+        debug {
+            storeFile file("keystore/barzodev.keystore")
+            storePassword "xclavis"
+            keyAlias "barzo"
+            keyPassword "xclavis"
+        }
+    }
 
     buildTypes {
         release {
@@ -70,47 +97,51 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:${appcompat_version}"
     implementation "androidx.appcompat:appcompat-resources:${appcompat_version}"
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.annotation:annotation:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'  // Changed from 2.2.0
+    implementation 'androidx.annotation:annotation:1.9.1'
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.percentlayout:percentlayout:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'androidx.work:work-runtime-ktx:2.9.0'
-    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'androidx.work:work-runtime-ktx:2.8.1'  // Changed from 2.10.0
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'  // Changed from 1.1.0
     implementation "androidx.lifecycle:lifecycle-viewmodel:${lifecycle_version}"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycle_version}"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:${lifecycle_version}"
     implementation "androidx.lifecycle:lifecycle-livedata-core:${lifecycle_version}"
-    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'com.google.android.material:material:1.12.0'
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
-    implementation 'com.airbnb.android:lottie:6.5.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.29'
+    implementation 'com.airbnb.android:lottie:6.6.0'
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation 'com.makeramen:roundedimageview:2.3.0'
-    implementation 'com.tbuonomo:dotsindicator:4.3'
+    implementation 'com.tbuonomo:dotsindicator:5.1.0'
     implementation 'com.google.android.gms:play-services-ads:23.5.0'
     implementation 'com.google.android.gms:play-services-ads-identifier:18.1.0'
     implementation 'apero-inhouse:apero-ads:7.0.7'
     implementation 'apero-inhouse:first-open-vsl:3.0.0'
-    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'com.onesignal:OneSignal:5.1.24'
     implementation 'com.google.android.play:review:2.0.2'
     implementation 'com.google.android.play:review-ktx:2.0.2'
     implementation 'com.google.android.play:app-update:2.1.0'
     implementation 'com.google.android.play:app-update-ktx:2.1.0'
     implementation 'com.google.android.gms:play-services-tasks:18.2.0'
-    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'org.jsoup:jsoup:1.18.1'
     implementation 'com.github.guolindev:LitePal:8ad8322cc6'
     implementation 'org.greenrobot:eventbus:3.3.1'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0'
     implementation 'com.google.android.ump:user-messaging-platform:3.1.0'
-    implementation 'androidx.core:core-ktx:1.12.0'
-    implementation 'androidx.core:core:1.12.0'
+    implementation 'androidx.core:core-ktx:1.12.0'  // Changed from 1.15.0
+    implementation 'androidx.core:core:1.12.0'  // Changed from 1.15.0
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.29'
+    implementation 'com.adjust.sdk:adjust-android:4.33.0'
+    implementation 'com.facebook.android:facebook-core:17.0.2'
+    implementation 'com.facebook.android:facebook-login:17.0.2'
+    implementation "androidx.cardview:cardview:1.0.0"
 
 }

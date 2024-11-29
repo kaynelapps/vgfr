@@ -17,6 +17,7 @@ import com.aigirlfriend.virtuallove.db.HistoryLite;
 import com.aigirlfriend.virtuallove.utils.ChatUtil;
 import com.aigirlfriend.virtuallove.utils.StringUtil;
 import com.aigirlfriend.virtuallove.utils.SubsUtil;
+import com.aigirlfriend.virtuallove.splashAds.LanguageActivity;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,6 +28,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Random;
+import android.content.Context;
+import android.content.SharedPreferences;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -45,7 +48,18 @@ public class HttpUtils {
 
     public static void AiGirlChat(String str, boolean z, ChatRequestCallback chatRequestCallback) {
         HashMap hashMap = new HashMap();
-        hashMap.put("p2", str);
+        SharedPreferences prefs = MyApplication.mContext.getSharedPreferences("AppSettings", Context.MODE_PRIVATE);
+        String languageCode = prefs.getString("language", "en_US");
+        String languagePrompt = getLanguagePrompt(languageCode);
+
+        if (str.isEmpty()) {
+            // Force language instruction for first message
+            hashMap.put("p2", languagePrompt);
+            hashMap.put("forceLanguage", "true");
+        } else {
+            hashMap.put("p2", languagePrompt + ": " + str);
+        }
+
         hashMap.put("chatModel", z ? "4" : "3");
         HistoryLite editHistory = ChatUtil.getEditHistory();
         hashMap.put("templateId", editHistory.mPromptId);
@@ -73,10 +87,33 @@ public class HttpUtils {
         }
 
         hashMap.put("phoneId", getRandomNumber());
-        //hashMap.put("phoneId", getAndroidId());
         hashMap.put("packageName", BuildConfig.APPLICATION_ID);
         getJsonContent("http://api.chatai.click:80/v1/chat2/chatTemplate", hashMap, new callChat(chatRequestCallback, z));
     }
+
+    private static String getLanguagePrompt(String languageCode) {
+        switch(languageCode) {
+            case "fr": return "Réponds en français";
+            case "en_US": return "Respond in English";
+            case "hi": return "हिंदी में जवाब दें";
+            case "es": return "Responde en español";
+            case "zh": return "用中文回答";
+            case "pt": return "Responda em português";
+            case "ru": return "Отвечай на русском";
+            case "in": return "Jawab dalam bahasa Indonesia";
+            case "fil": return "Sumagot sa Filipino";
+            case "bn": return "বাংলায় উত্তর দিন";
+            case "pt_BR": return "Responda em português do Brasil";
+            case "af": return "Antwoord in Afrikaans";
+            case "de": return "Antworte auf Deutsch";
+            case "en_CA": return "Respond in English";
+            case "en_GB": return "Respond in English";
+            case "ko": return "한국어로 대답하세요";
+            case "nl": return "Antwoord in het Nederlands";
+            default: return "Respond in English";
+        }
+    }
+
 
     private static String getRandomNumber() {
 
